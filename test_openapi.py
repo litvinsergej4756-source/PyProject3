@@ -4,7 +4,7 @@ import json
 
 # 1) API-Key (am besten per ENV-Variable setzen)
 # export OPENAI_API_KEY="sk-..."
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="s")
 
 # 2) Prompt vorbereiten
 prompt = """
