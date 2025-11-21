@@ -1,0 +1,916 @@
+[2025-11-21 18:07:01] Start of goods processing
+[2025-11-21 18:23:48] Start of goods processing
+[2025-11-21 18:23:48] ✅ successfully connected to MySQL
+[2025-11-21 18:23:48] Received 2 items for processing (chatgpt_state IS NULL)
+[2025-11-21 18:23:48] 📝 Product names:
+[2025-11-21 18:23:48] ✅ Prompt successfully loaded from the database
+[2025-11-21 18:23:48] 🔒 The connection is closed
+[2025-11-21 18:23:48] Processing of Item ID=6480, Name='Mercedes W639 Fensterheber links -12399-'
+[2025-11-21 19:53:06] Start of goods processing
+[2025-11-21 19:53:06] ✅ successfully connected to MySQL
+[2025-11-21 19:53:06] Received 2 items for processing (chatgpt_state IS NULL)
+[2025-11-21 19:53:06] 📝 Product names:
+[2025-11-21 19:53:06] 🔒 The connection is closed
+[2025-11-21 19:54:46] Start of goods processing
+[2025-11-21 19:54:46] ✅ successfully connected to MySQL
+[2025-11-21 19:54:46] Received 2 items for processing (chatgpt_state IS NULL)
+[2025-11-21 19:54:46] 📝 Product names:
+[2025-11-21 19:54:46] ✅ Prompt successfully loaded from the database
+[2025-11-21 19:54:46] 🔒 The connection is closed
+[2025-11-21 19:54:55] 📤 ChatGPT's response to 'Mercedes W639 Fensterheber links -12399-':
+{
+    "titel": "Fensterheber links für Mercedes Vito/Viano W639 (-12399-)",
+    "SEO": "Fensterheber links Mercedes Vito Viano W639 Ersatzteil -12399-",
+    "Kurzbeschreibung": "Elektrischer Fensterheber links für Mercedes Vito/Viano W639.",
+    "Verkaufstext": "Hochwertiger elektrischer Fensterheber für die linke Tür Ihres Mercedes Vito/Viano W639. Passgenau nach OE-Spezifikation gefertigt, sorgt dieses Ersatzteil für zuverlässiges Öffnen und Schließen der Scheibe. Ideal als Ersatz bei defektem oder schwergängigem Originalteil.",
+    "OE-Nummer": [],
+    "Quelle": [
+        "autodoc.de",
+        "kfzteile24.de",
+        "motointegrator.de"
+    ],
+    "kompatibilität": [
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "Vito Bus (W639)",
+            "baujahr_von": "2003",
+            "baujahr_bis": "2014",
+            "motorvarianten": [
+                ""
+            ],
+            "bemerkung": "linker Fensterheber, vordere Tür"
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "Vito Kasten (W639)",
+            "baujahr_von": "2003",
+            "baujahr_bis": "2014",
+            "motorvarianten": [
+                ""
+            ],
+            "bemerkung": "linker Fensterheber, vordere Tür"
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "Viano (W639)",
+            "baujahr_von": "2003",
+            "baujahr_bis": "2014",
+            "motorvarianten": [
+                ""
+            ],
+            "bemerkung": "linker Fensterheber, vordere Tür"
+        }
+    ]
+}
+[2025-11-21 19:54:55] Processing of Item ID=6480, Name='Mercedes W639 Fensterheber links -12399-'
+[2025-11-21 19:59:53] Start of goods processing
+[2025-11-21 19:59:53] ✅ successfully connected to MySQL
+[2025-11-21 19:59:53] Received 2 items for processing (chatgpt_state IS NULL)
+[2025-11-21 19:59:53] 📝 Product names:
+[2025-11-21 19:59:53] ✅ Prompt successfully loaded from the database
+[2025-11-21 19:59:53] 🔒 The connection is closed
+[2025-11-21 20:00:21] 📤 ChatGPT's response to 'Mercedes W639 Fensterheber links -12399-':
+{
+    "titel": "Fensterheber links für Mercedes Vito/Viano W639 -12399-",
+    "SEO": "Mercedes Vito W639 Fensterheber links passend für Bus und Kasten 2003-2014",
+    "Kurzbeschreibung": "Linker Fensterheber für Mercedes Vito/Viano W639, Bus und Kasten, ab 2003.",
+    "Verkaufstext": "Stabiler Fensterheber links für Mercedes-Benz Vito/Viano W639. Passend für VITO Bus sowie VITO/MIXTO Kasten verschiedener Motorisierungen ab Baujahr 2003. Hochwertige Ausführung für zuverlässige Fensterbetätigung und passgenauen Einbau entsprechend der originalen Spezifikation.",
+    "OE-Nummer": [],
+    "Quelle": [
+        "https://www.motointegrator.de/fensterheber-12031/mercedes-benz/vito-bus-w639-5013/",
+        "https://www.motointegrator.de/fensterheber-12031/mercedes-benz/vito-mixto-kasten-w639-5014/"
+    ],
+    "kompatibilität": [
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "VITO Bus (W639) 115 CDI",
+            "baujahr_von": "2003",
+            "baujahr_bis": "",
+            "motorvarianten": [
+                ""
+            ],
+            "bemerkung": ""
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "VITO Bus (W639) 116 CDI 4x4",
+            "baujahr_von": "2010",
+            "baujahr_bis": "2014",
+            "motorvarianten": [
+                ""
+            ],
+            "bemerkung": ""
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "VITO Bus (W639) 116 CDI",
+            "baujahr_von": "2010",
+            "baujahr_bis": "",
+            "motorvarianten": [
+                ""
+            ],
+            "bemerkung": ""
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "VITO Bus (W639) 119",
+            "baujahr_von": "2003",
+            "baujahr_bis": "",
+            "motorvarianten": [
+                ""
+            ],
+            "bemerkung": ""
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "VITO Bus (W639) 120 CDI",
+            "baujahr_von": "2006",
+            "baujahr_bis": "",
+            "motorvarianten": [
+                ""
+            ],
+            "bemerkung": ""
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "VITO Bus (W639) 122",
+            "baujahr_von": "2003",
+            "baujahr_bis": "",
+            "motorvarianten": [
+                ""
+            ],
+            "bemerkung": ""
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "VITO Bus (W639) 122 CDI",
+            "baujahr_von": "2010",
+            "baujahr_bis": "",
+            "motorvarianten": [
+                ""
+            ],
+            "bemerkung": ""
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "VITO Bus (W639) 123",
+            "baujahr_von": "2004",
+            "baujahr_bis": "2008",
+            "motorvarianten": [
+                ""
+            ],
+            "bemerkung": ""
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "VITO Bus (W639) 126",
+            "baujahr_von": "2007",
+            "baujahr_bis": "",
+            "motorvarianten": [
+                ""
+            ],
+            "bemerkung": ""
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "VITO Bus (W639) E-CELL",
+            "baujahr_von": "2012",
+            "baujahr_bis": "",
+            "motorvarianten": [
+                ""
+            ],
+            "bemerkung": ""
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "VITO / MIXTO Kasten (W639) 115 CDI",
+            "baujahr_von": "2003",
+            "baujahr_bis": "",
+            "motorvarianten": [
+                ""
+            ],
+            "bemerkung": ""
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "VITO / MIXTO Kasten (W639) 116 CDI 4x4",
+            "baujahr_von": "2010",
+            "baujahr_bis": "",
+            "motorvarianten": [
+                ""
+            ],
+            "bemerkung": ""
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "VITO / MIXTO Kasten (W639) 116 CDI",
+            "baujahr_von": "2010",
+            "baujahr_bis": "",
+            "motorvarianten": [
+                ""
+            ],
+            "bemerkung": ""
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "VITO / MIXTO Kasten (W639) 119",
+            "baujahr_von": "2003",
+            "baujahr_bis": "",
+            "motorvarianten": [
+                ""
+            ],
+            "bemerkung": ""
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "VITO / MIXTO Kasten (W639) 120 CDI",
+            "baujahr_von": "2006",
+            "baujahr_bis": "",
+            "motorvarianten": [
+                ""
+            ],
+            "bemerkung": ""
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "VITO / MIXTO Kasten (W639) 122",
+            "baujahr_von": "2003",
+            "baujahr_bis": "",
+            "motorvarianten": [
+                ""
+            ],
+            "bemerkung": ""
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "VITO / MIXTO Kasten (W639) 122 CDI",
+            "baujahr_von": "2010",
+            "baujahr_bis": "",
+            "motorvarianten": [
+                ""
+            ],
+            "bemerkung": ""
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "VITO / MIXTO Kasten (W639) 123",
+            "baujahr_von": "2004",
+            "baujahr_bis": "2008",
+            "motorvarianten": [
+                ""
+            ],
+            "bemerkung": ""
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "VITO / MIXTO Kasten (W639) 126",
+            "baujahr_von": "2007",
+            "baujahr_bis": "",
+            "motorvarianten": [
+                ""
+            ],
+            "bemerkung": ""
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "VITO / MIXTO Kasten (W639) E-CELL",
+            "baujahr_von": "2012",
+            "baujahr_bis": "",
+            "motorvarianten": [
+                ""
+            ],
+            "bemerkung": ""
+        }
+    ]
+}
+[2025-11-21 20:00:21] Processing of Item ID=6480, Name='Mercedes W639 Fensterheber links -12399-'
+[2025-11-21 20:06:47] Start of goods processing
+[2025-11-21 20:06:47] ✅ successfully connected to MySQL
+[2025-11-21 20:06:47] Received 2 items for processing (chatgpt_state IS NULL)
+[2025-11-21 20:06:47] 📝 Product names:
+[2025-11-21 20:06:47] ✅ Prompt successfully loaded from the database
+[2025-11-21 20:06:47] 🔒 The connection is closed
+[2025-11-21 20:07:20] 📤 ChatGPT's response to 'Mercedes W639 Fensterheber links -12399-':
+{
+    "titel": "Fensterheber vorne links ohne Motor Mercedes Vito/Viano W639",
+    "SEO": "Fensterheber links vorne Mercedes Vito Viano W639 2003-2025 ohne Motor passend A6397200046 A6397200446",
+    "Kurzbeschreibung": "Elektrischer Fensterheber vorne links ohne Motor für Mercedes Vito/Viano W639 ab 2003.",
+    "Verkaufstext": "Passgenauer Fensterheber vorne links für Mercedes Vito, Vito Mixto und Viano W639. Ausführung elektrisch, ohne Elektromotor, als hochwertiger Ersatz für die originalen OE-Nummern A6397200046 und A6397200446. Geeignet für alle Motorvarianten der Baureihe W639 ab Bj. 2003, ideal bei defektem Seilzug oder schwergängigem Fensterlauf.",
+    "OE-Nummer": [
+        "A6397200046",
+        "6397200046",
+        "A6397200446",
+        "6397200446"
+    ],
+    "Quelle": [
+        "https://www.autodoc.de/abakus/13300505",
+        "https://www.autodoc.de/valeo/7515309",
+        "https://www.autodoc.de/nty/17106869"
+    ],
+    "kompatibilität": [
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "Vito W639",
+            "baujahr_von": "2003",
+            "baujahr_bis": "2025",
+            "motorvarianten": [
+                "109 CDI",
+                "110 CDI",
+                "111 CDI",
+                "111 CDI 4x4",
+                "113 CDI",
+                "113 CDI 4x4",
+                "115 CDI",
+                "115 CDI 4x4",
+                "116 CDI",
+                "116 CDI 4x4",
+                "119",
+                "120 CDI",
+                "122",
+                "122 CDI",
+                "123",
+                "126",
+                "E-CELL",
+                "3.2",
+                "3.5",
+                "3.7",
+                "CDI 2.0",
+                "CDI 2.0 4-matic",
+                "CDI 2.2",
+                "CDI 2.2 4-matic",
+                "CDI 3.0"
+            ],
+            "bemerkung": "Fensterheber vorne links, elektrisch, ohne Elektromotor; passend für alle Karosserie- und Motorvarianten Vito W639."
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "Vito Mixto W639",
+            "baujahr_von": "2003",
+            "baujahr_bis": "2025",
+            "motorvarianten": [
+                "109 CDI",
+                "110 CDI",
+                "111 CDI",
+                "111 CDI 4x4",
+                "113 CDI",
+                "113 CDI 4x4",
+                "115 CDI",
+                "115 CDI 4x4",
+                "116 CDI",
+                "116 CDI 4x4",
+                "119",
+                "120 CDI",
+                "122",
+                "122 CDI",
+                "123",
+                "126",
+                "E-CELL",
+                "3.2",
+                "3.5",
+                "3.7",
+                "CDI 2.0",
+                "CDI 2.0 4-matic",
+                "CDI 2.2",
+                "CDI 2.2 4-matic",
+                "CDI 3.0"
+            ],
+            "bemerkung": "Fensterheber vorne links, elektrisch, ohne Elektromotor; passend für Kasten/Mixto W639."
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "Viano W639",
+            "baujahr_von": "2003",
+            "baujahr_bis": "2025",
+            "motorvarianten": [
+                "109 CDI",
+                "110 CDI",
+                "111 CDI",
+                "111 CDI 4x4",
+                "113 CDI",
+                "113 CDI 4x4",
+                "115 CDI",
+                "115 CDI 4x4",
+                "116 CDI",
+                "116 CDI 4x4",
+                "119",
+                "120 CDI",
+                "122",
+                "122 CDI",
+                "123",
+                "126",
+                "E-CELL",
+                "3.2",
+                "3.5",
+                "3.7",
+                "CDI 2.0",
+                "CDI 2.0 4-matic",
+                "CDI 2.2",
+                "CDI 2.2 4-matic",
+                "CDI 3.0"
+            ],
+            "bemerkung": "Fensterheber vorne links, elektrisch, ohne Elektromotor; passend für Viano W639 alle Motorisierungen."
+        }
+    ]
+}
+[2025-11-21 20:07:20] Processing of Item ID=6480, Name='Mercedes W639 Fensterheber links -12399-'
+[2025-11-21 20:07:20] ✅ successfully connected to MySQL
+[2025-11-21 20:07:20] ✅ Updated product 6480, chatgpt_state=1
+[2025-11-21 20:07:20] 🔒 The connection is closed
+[2025-11-21 20:07:37] 📤 ChatGPT's response to 'Mercedes  W638 Fensterheber rechts -1308-':
+{
+    "titel": "Fensterheber rechts Mercedes Vito / V-Klasse W638 manuell",
+    "SEO": "Fensterheber rechts für Mercedes Vito W638 / V-Klasse 1996-2003 – kompatibel mit A6387200346, A6387200746",
+    "Kurzbeschreibung": "Manueller Fensterheber rechts für Mercedes Vito/V-Klasse W638, Baujahr 1996–2003.",
+    "Verkaufstext": "Hochwertiger Fensterheber für die rechte Vordertür Ihres Mercedes Vito oder Ihrer V-Klasse W638 (1996–2003). Passend für zahlreiche Diesel- und Benzinmotoren, ersetzt die OE-Nummern A6387200346 und A6387200746. Robuste Konstruktion für zuverlässige Fensterführung – ideal als Ersatz bei schwergängigen oder defekten Hebern.",
+    "OE-Nummer": [
+        "A6387200346",
+        "6387200346",
+        "A6387200746",
+        "6387200746"
+    ],
+    "Quelle": [
+        "https://www.autodoc.de/van-wezel/17867416",
+        "https://www.autodoc.de/lemforder/10069544"
+    ],
+    "kompatibilität": [
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "Vito W638",
+            "baujahr_von": "1996",
+            "baujahr_bis": "2003",
+            "motorvarianten": [
+                "108 D 2.3",
+                "110 D 2.3",
+                "110 TD 2.3",
+                "108 CDI 2.2",
+                "110 CDI 2.2",
+                "112 CDI 2.2",
+                "113 2.0",
+                "114 2.3"
+            ],
+            "bemerkung": "Vito Kasten/Transporter, Einbauposition vorne rechts, manuell/ohne Elektromotor je nach Ausführung."
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "Vito Bus W638",
+            "baujahr_von": "1996",
+            "baujahr_bis": "2003",
+            "motorvarianten": [
+                "108 D 2.3",
+                "110 D 2.3",
+                "110 TD 2.3",
+                "108 CDI 2.2",
+                "110 CDI 2.2",
+                "112 CDI 2.2",
+                "113 2.0",
+                "114 2.3"
+            ],
+            "bemerkung": "Vito Bus/Minivan, Einbauposition vorne rechts, passend für 2- und 3-türige Varianten."
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "V-Klasse W638",
+            "baujahr_von": "1996",
+            "baujahr_bis": "2003",
+            "motorvarianten": [
+                "V 200",
+                "V 230",
+                "V 230 TD",
+                "V 220 CDI",
+                "V 200 CDI",
+                "V 280"
+            ],
+            "bemerkung": "V-Klasse W638, Einbauposition vorne rechts, kompatibel mit genannten Benzin- und Dieselmotoren."
+        }
+    ]
+}
+[2025-11-21 20:07:37] Processing of Item ID=6479, Name='Mercedes  W638 Fensterheber rechts -1308-'
+[2025-11-21 20:07:37] ✅ successfully connected to MySQL
+[2025-11-21 20:07:37] ✅ Updated product 6479, chatgpt_state=1
+[2025-11-21 20:07:37] 🔒 The connection is closed
+[2025-11-21 20:15:14] Start of goods processing
+[2025-11-21 20:15:14] ✅ successfully connected to MySQL
+[2025-11-21 20:15:14] Received 1 items for processing (chatgpt_state IS NULL)
+[2025-11-21 20:15:14] 📝 Product names:
+[2025-11-21 20:15:14] ✅ Prompt successfully loaded from the database
+[2025-11-21 20:15:14] 🔒 The connection is closed
+[2025-11-21 20:16:09] 📤 ChatGPT's response to 'Mercedes Sprinter W901-W905 Fensterheber rechts -1300-':
+{
+    "titel": "Fensterheber rechts für Mercedes Sprinter W901-W905, elektrisch",
+    "SEO": "Mercedes Sprinter W901-W905 Fensterheber rechts elektrisch vorne – OE 9017201246",
+    "Kurzbeschreibung": "Elektrischer Fensterheber rechts vorne für Mercedes Sprinter W901-W905",
+    "Verkaufstext": "Elektrischer Fensterheber für die rechte vordere Tür Ihres Mercedes Sprinter W901-W905. Passend für Kastenwagen, Bus und Pritsche/Fahrgestell mit Baujahren 1995–2006. Robuste Ausführung für lange Lebensdauer – ideal als Ersatz für verschlissene oder schwergängige Original-Fensterheber.",
+    "OE-Nummer": [
+        "A9017201246",
+        "9017201246"
+    ],
+    "Quelle": [
+        "https://www.autodoc.de/dt/9681963"
+    ],
+    "kompatibilität": [
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "Sprinter W903 Kastenwagen",
+            "baujahr_von": "1995",
+            "baujahr_bis": "2006",
+            "motorvarianten": [
+                "308 D 2.3",
+                "312 D 2.9 4x4",
+                "316 CDI 4x4",
+                "313 CDI 4x4",
+                "311 CDI 4x4",
+                "314 4x4",
+                "316 CDI",
+                "313 CDI",
+                "311 CDI",
+                "308 CDI",
+                "312 D 2.9",
+                "314",
+                "310 D 2.9",
+                "308 D",
+                "308 E",
+                "310 D 4x4",
+                "214 NGT",
+                "216 CDI",
+                "213 CDI",
+                "211 CDI",
+                "208 CDI",
+                "208 D",
+                "214",
+                "212 D",
+                "210 D",
+                "314 NGT",
+                "412 D 4x4",
+                "412 D",
+                "410 D 4x4",
+                "410 D",
+                "408 D",
+                "416 CDI 4x4",
+                "416 CDI",
+                "413 CDI 4x4",
+                "413 CDI",
+                "411 CDI 4x4",
+                "411 CDI",
+                "408 CDI",
+                "414 4x4",
+                "414",
+                "616 CDI"
+            ],
+            "bemerkung": "Vorne rechts, elektrisch betriebener Fensterheber"
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "Sprinter 3t",
+            "baujahr_von": "1995",
+            "baujahr_bis": "2006",
+            "motorvarianten": [
+                "308 D 2.3",
+                "312 D 2.9 4x4",
+                "316 CDI 4x4",
+                "313 CDI 4x4",
+                "311 CDI 4x4",
+                "314 4x4",
+                "316 CDI",
+                "313 CDI",
+                "311 CDI",
+                "308 CDI",
+                "312 D 2.9",
+                "314",
+                "310 D 2.9",
+                "308 D",
+                "308 E",
+                "310 D 4x4",
+                "214 NGT",
+                "216 CDI",
+                "213 CDI",
+                "211 CDI",
+                "208 CDI",
+                "208 D",
+                "214",
+                "212 D",
+                "210 D",
+                "314 NGT",
+                "412 D 4x4",
+                "412 D",
+                "410 D 4x4",
+                "410 D",
+                "408 D",
+                "416 CDI 4x4",
+                "416 CDI",
+                "413 CDI 4x4",
+                "413 CDI",
+                "411 CDI 4x4",
+                "411 CDI",
+                "408 CDI",
+                "414 4x4",
+                "414",
+                "616 CDI"
+            ],
+            "bemerkung": "Alle 3,0t-Varianten, vorne rechts"
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "Sprinter 2t",
+            "baujahr_von": "1995",
+            "baujahr_bis": "2006",
+            "motorvarianten": [
+                "308 D 2.3",
+                "312 D 2.9 4x4",
+                "316 CDI 4x4",
+                "313 CDI 4x4",
+                "311 CDI 4x4",
+                "314 4x4",
+                "316 CDI",
+                "313 CDI",
+                "311 CDI",
+                "308 CDI",
+                "312 D 2.9",
+                "314",
+                "310 D 2.9",
+                "308 D",
+                "308 E",
+                "310 D 4x4",
+                "214 NGT",
+                "216 CDI",
+                "213 CDI",
+                "211 CDI",
+                "208 CDI",
+                "208 D",
+                "214",
+                "212 D",
+                "210 D",
+                "314 NGT",
+                "412 D 4x4",
+                "412 D",
+                "410 D 4x4",
+                "410 D",
+                "408 D",
+                "416 CDI 4x4",
+                "416 CDI",
+                "413 CDI 4x4",
+                "413 CDI",
+                "411 CDI 4x4",
+                "411 CDI",
+                "408 CDI",
+                "414 4x4",
+                "414",
+                "616 CDI"
+            ],
+            "bemerkung": "Alle 2,0t-Varianten, vorne rechts"
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "Sprinter 2t Bus",
+            "baujahr_von": "1995",
+            "baujahr_bis": "2006",
+            "motorvarianten": [
+                "308 D 2.3",
+                "312 D 2.9 4x4",
+                "316 CDI 4x4",
+                "313 CDI 4x4",
+                "311 CDI 4x4",
+                "314 4x4",
+                "316 CDI",
+                "313 CDI",
+                "311 CDI",
+                "308 CDI",
+                "312 D 2.9",
+                "314",
+                "310 D 2.9",
+                "308 D",
+                "308 E",
+                "310 D 4x4",
+                "214 NGT",
+                "216 CDI",
+                "213 CDI",
+                "211 CDI",
+                "208 CDI",
+                "208 D",
+                "214",
+                "212 D",
+                "210 D",
+                "314 NGT",
+                "412 D 4x4",
+                "412 D",
+                "410 D 4x4",
+                "410 D",
+                "408 D",
+                "416 CDI 4x4",
+                "416 CDI",
+                "413 CDI 4x4",
+                "413 CDI",
+                "411 CDI 4x4",
+                "411 CDI",
+                "408 CDI",
+                "414 4x4",
+                "414",
+                "616 CDI"
+            ],
+            "bemerkung": "Bus-Varianten, vorne rechts"
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "Sprinter 4t",
+            "baujahr_von": "1995",
+            "baujahr_bis": "2006",
+            "motorvarianten": [
+                "308 D 2.3",
+                "312 D 2.9 4x4",
+                "316 CDI 4x4",
+                "313 CDI 4x4",
+                "311 CDI 4x4",
+                "314 4x4",
+                "316 CDI",
+                "313 CDI",
+                "311 CDI",
+                "308 CDI",
+                "312 D 2.9",
+                "314",
+                "310 D 2.9",
+                "308 D",
+                "308 E",
+                "310 D 4x4",
+                "214 NGT",
+                "216 CDI",
+                "213 CDI",
+                "211 CDI",
+                "208 CDI",
+                "208 D",
+                "214",
+                "212 D",
+                "210 D",
+                "314 NGT",
+                "412 D 4x4",
+                "412 D",
+                "410 D 4x4",
+                "410 D",
+                "408 D",
+                "416 CDI 4x4",
+                "416 CDI",
+                "413 CDI 4x4",
+                "413 CDI",
+                "411 CDI 4x4",
+                "411 CDI",
+                "408 CDI",
+                "414 4x4",
+                "414",
+                "616 CDI"
+            ],
+            "bemerkung": "4,0t-Varianten, vorne rechts"
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "Sprinter 2-T Pritsche/Fahrgestell (W901, W902)",
+            "baujahr_von": "1995",
+            "baujahr_bis": "2006",
+            "motorvarianten": [
+                "308 D 2.3",
+                "312 D 2.9 4x4",
+                "316 CDI 4x4",
+                "313 CDI 4x4",
+                "311 CDI 4x4",
+                "314 4x4",
+                "316 CDI",
+                "313 CDI",
+                "311 CDI",
+                "308 CDI",
+                "312 D 2.9",
+                "314",
+                "310 D 2.9",
+                "308 D",
+                "308 E",
+                "310 D 4x4",
+                "214 NGT",
+                "216 CDI",
+                "213 CDI",
+                "211 CDI",
+                "208 CDI",
+                "208 D",
+                "214",
+                "212 D",
+                "210 D",
+                "314 NGT",
+                "412 D 4x4",
+                "412 D",
+                "410 D 4x4",
+                "410 D",
+                "408 D",
+                "416 CDI 4x4",
+                "416 CDI",
+                "413 CDI 4x4",
+                "413 CDI",
+                "411 CDI 4x4",
+                "411 CDI",
+                "408 CDI",
+                "414 4x4",
+                "414",
+                "616 CDI"
+            ],
+            "bemerkung": "Pritsche/Fahrgestell W901/W902, vorne rechts"
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "Sprinter 3-T Pritsche/Fahrgestell (W903)",
+            "baujahr_von": "1995",
+            "baujahr_bis": "2006",
+            "motorvarianten": [
+                "308 D 2.3",
+                "312 D 2.9 4x4",
+                "316 CDI 4x4",
+                "313 CDI 4x4",
+                "311 CDI 4x4",
+                "314 4x4",
+                "316 CDI",
+                "313 CDI",
+                "311 CDI",
+                "308 CDI",
+                "312 D 2.9",
+                "314",
+                "310 D 2.9",
+                "308 D",
+                "308 E",
+                "310 D 4x4",
+                "214 NGT",
+                "216 CDI",
+                "213 CDI",
+                "211 CDI",
+                "208 CDI",
+                "208 D",
+                "214",
+                "212 D",
+                "210 D",
+                "314 NGT",
+                "412 D 4x4",
+                "412 D",
+                "410 D 4x4",
+                "410 D",
+                "408 D",
+                "416 CDI 4x4",
+                "416 CDI",
+                "413 CDI 4x4",
+                "413 CDI",
+                "411 CDI 4x4",
+                "411 CDI",
+                "408 CDI",
+                "414 4x4",
+                "414",
+                "616 CDI"
+            ],
+            "bemerkung": "Pritsche/Fahrgestell W903, vorne rechts"
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "Sprinter 4-T Kastenwagen (W904)",
+            "baujahr_von": "1995",
+            "baujahr_bis": "2006",
+            "motorvarianten": [
+                "308 D 2.3",
+                "312 D 2.9 4x4",
+                "316 CDI 4x4",
+                "313 CDI 4x4",
+                "311 CDI 4x4",
+                "314 4x4",
+                "316 CDI",
+                "313 CDI",
+                "311 CDI",
+                "308 CDI",
+                "312 D 2.9",
+                "314",
+                "310 D 2.9",
+                "308 D",
+                "308 E",
+                "310 D 4x4",
+                "214 NGT",
+                "216 CDI",
+                "213 CDI",
+                "211 CDI",
+                "208 CDI",
+                "208 D",
+                "214",
+                "212 D",
+                "210 D",
+                "314 NGT",
+                "412 D 4x4",
+                "412 D",
+                "410 D 4x4",
+                "410 D",
+                "408 D",
+                "416 CDI 4x4",
+                "416 CDI",
+                "413 CDI 4x4",
+                "413 CDI",
+                "411 CDI 4x4",
+                "411 CDI",
+                "408 CDI",
+                "414 4x4",
+                "414",
+                "616 CDI"
+            ],
+            "bemerkung": "4t-Kasten W904, vorne rechts"
+        }
+    ]
+}
+[2025-11-21 20:16:09] Processing of Item ID=6478, Name='Mercedes Sprinter W901-W905 Fensterheber rechts -1300-'
+[2025-11-21 20:16:10] ✅ successfully connected to MySQL
+[2025-11-21 20:16:10] ✅ Updated product 6478, chatgpt_state=1
+[2025-11-21 20:16:10] 🔒 The connection is closed

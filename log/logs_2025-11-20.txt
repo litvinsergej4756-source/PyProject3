@@ -1,0 +1,317 @@
+[2025-11-20 20:14:36] Start of goods processing
+[2025-11-20 20:14:37] ✅ successfully connected to MySQL
+[2025-11-20 20:14:37] Received 2 items for processing (chatgpt_state IS NULL)
+[2025-11-20 20:14:37] 📝 Product names:
+[2025-11-20 20:14:37] ✅ Prompt successfully loaded from the database
+[2025-11-20 20:14:37] 🔒 The connection is closed
+[2025-11-20 20:14:37] Processing of Item ID=6483, Name='A6395406909 Mercedes W639 Fensterheber -12398-, weitere Herstellernummer: A6395406909  '
+[2025-11-20 20:14:55] 📤 ChatGPT's response to 'A6395406909 Mercedes W639 Fensterheber -12398-, weitere Herstellernummer: A6395406909  ':
+{
+    "titel": "Fensterheber vorne rechts mit Motor Mercedes Vito/Viano W639 A6395406909",
+    "SEO": "A6395406909 Fensterheber vorne rechts Mercedes Vito Viano W639 mit Motor",
+    "Kurzbeschreibung": "Elektrischer Fensterheber vorne rechts mit Motor für Mercedes Vito/Viano W639.",
+    "Verkaufstext": "Elektrischer Fensterheber vorne rechts mit Motor für Mercedes-Benz Vito/Viano W639. Original Mercedes-Teilenummer A6395406909, passend für diverse Diesel-Modelle ab Baujahr 2003. Ideal als Ersatz bei defektem Fensterheber – geprüfte Qualität, passgenaue Montage an der Beifahrertür.",
+    "OE-Nummer": [
+        "A6395406909",
+        "6395406909",
+        "A0068204742",
+        "0068204742",
+        "927231105",
+        "A54953112"
+    ],
+    "Quelle": [
+        "https://owk-kfz.com/",
+        "https://rrr.lt/en/used-part/brj229-a6395406909-mercedes-benz-vito-viano-w639-front-door-window-regulator-with-motor",
+        "https://ovoko.es/parte/kae7240-a6395406909-mercedes-benz-vito-viano-w639-cableado-de-puerta-delantera",
+        "https://boutique.francecasse.fr/18256-moteur-leve-vitre-avant-droit/1391-mercedes/15796-vito-639",
+        "https://www.ebay.fr/itm/365899481603"
+    ],
+    "kompatibilität": [
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "Vito/Viano W639",
+            "baujahr_von": "2003",
+            "baujahr_bis": "2014",
+            "motorvarianten": [
+                ""
+            ],
+            "bemerkung": "Fensterheber vorne rechts (Beifahrertür) mit Motor, für verschiedene Diesel- und Benzinvarianten der Baureihe W639."
+        }
+    ]
+}
+[2025-11-20 20:14:55] ✅ successfully connected to MySQL
+[2025-11-20 20:14:55] ✅ Updated product 6483, chatgpt_state=1
+[2025-11-20 20:14:55] 🔒 The connection is closed
+[2025-11-20 20:14:56] Processing of Item ID=6482, Name='A6397200446 Mercedes W639 Fensterheber -10467-, weitere Herstellernummer: A6397200446  '
+[2025-11-20 20:15:12] 📤 ChatGPT's response to 'A6397200446 Mercedes W639 Fensterheber -10467-, weitere Herstellernummer: A6397200446  ':
+{
+    "titel": "Fensterheber vorne links Mercedes Vito/Viano W639 OE A6397200446",
+    "SEO": "A6397200446 Fensterheber vorne links für Mercedes Vito Viano W639 elektrisch ohne Motor",
+    "Kurzbeschreibung": "Elektrischer Fensterheber vorne links für Mercedes Vito/Viano W639, passend zu OE A6397200446.",
+    "Verkaufstext": "Elektrischer Fensterheber für die Fahrertür (vorne links) passend für Mercedes Vito und Viano W639. Ersatz für die Originalnummer A6397200446 sowie entsprechende Varianten. Ohne Elektromotor – vorhandener Motor kann weiterverwendet werden. Geeignet für zahlreiche Diesel- und Benzinmotoren von 82 bis 258 PS der Baureihe W639 ab 2003.",
+    "OE-Nummer": [
+        "A6397200446",
+        "6397200446",
+        "A6397200046",
+        "6397200046",
+        "A6397200146",
+        "6397200146",
+        "A6397200546"
+    ],
+    "Quelle": [
+        "https://www.autodoc.de/abakus/13300505",
+        "https://www.autodoc.de/autoteile/fensterheber-12791/mercedes-benz/viano/viano-w639/7678-cdi-3-0-639-811-639-813-639-815",
+        "https://www.autodoc.de/autoteile/fensterheber-12791/mercedes-benz/vito/vito-bus-w639/17417-111-cdi-639-701-639-703-639-705",
+        "https://www.autodoc.de/autoteile/fensterheber-12791/mercedes-benz/vito/vito-bus-w639/18102-109-cdi-639-701",
+        "https://www.autodoc.de/autoteile/fensterheber-12791/mercedes-benz/t2/t2-l-pritsche-fahrgestell/34348-l-508-dg-309-400-309-401-309-402-309-403-309-404",
+        "https://www.autodoc.de/autoteile/fensterheber-12791/mercedes-benz/viano/mf-era"
+    ],
+    "kompatibilität": [
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "Vito W639",
+            "baujahr_von": "2003",
+            "baujahr_bis": "2024",
+            "motorvarianten": [
+                "E-CELL",
+                "116 CDI 4x4",
+                "113 CDI 4x4",
+                "123",
+                "109 CDI",
+                "126",
+                "115 CDI 4x4",
+                "111 CDI 4x4",
+                "120 CDI",
+                "111 CDI",
+                "122",
+                "119",
+                "115 CDI",
+                "122 CDI",
+                "116 CDI",
+                "113 CDI",
+                "110 CDI",
+                "109 CDI 4x4",
+                "3.5",
+                "CDI 2.0",
+                "CDI 3.0",
+                "CDI 2.2 4-matic",
+                "CDI 2.0 4-matic",
+                "3.7",
+                "CDI 2.2",
+                "3.2",
+                "109 CDI 88 PS",
+                "111 CDI 109 PS"
+            ],
+            "bemerkung": "Fensterheber vorne links, elektrisch, ohne Elektromotor, für Fahrzeuge ohne Fensterheber-Automatikfunktion."
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "Vito Mixto W639",
+            "baujahr_von": "2003",
+            "baujahr_bis": "2024",
+            "motorvarianten": [
+                "E-CELL",
+                "116 CDI 4x4",
+                "113 CDI 4x4",
+                "123",
+                "109 CDI",
+                "126",
+                "115 CDI 4x4",
+                "111 CDI 4x4",
+                "120 CDI",
+                "111 CDI",
+                "122",
+                "119",
+                "115 CDI",
+                "122 CDI",
+                "116 CDI",
+                "113 CDI",
+                "110 CDI",
+                "109 CDI 4x4",
+                "3.5",
+                "CDI 2.0",
+                "CDI 3.0",
+                "CDI 2.2 4-matic",
+                "CDI 2.0 4-matic",
+                "3.7",
+                "CDI 2.2",
+                "3.2"
+            ],
+            "bemerkung": "Fensterheber vorne links, elektrisch, ohne Elektromotor."
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "Viano W639",
+            "baujahr_von": "2003",
+            "baujahr_bis": "2024",
+            "motorvarianten": [
+                "E-CELL",
+                "116 CDI 4x4",
+                "113 CDI 4x4",
+                "123",
+                "109 CDI",
+                "126",
+                "115 CDI 4x4",
+                "111 CDI 4x4",
+                "120 CDI",
+                "111 CDI",
+                "122",
+                "119",
+                "115 CDI",
+                "122 CDI",
+                "116 CDI",
+                "113 CDI",
+                "110 CDI",
+                "109 CDI 4x4",
+                "3.5",
+                "CDI 2.0",
+                "CDI 3.0",
+                "CDI 2.2 4-matic",
+                "CDI 2.0 4-matic",
+                "3.7",
+                "CDI 2.2",
+                "3.2",
+                "CDI 3.0 224 PS"
+            ],
+            "bemerkung": "Fensterheber vorne links, elektrisch, ohne Elektromotor, passend für zahlreiche Benzin- und Dieselmotoren."
+        }
+    ]
+}
+[2025-11-20 20:15:13] ✅ successfully connected to MySQL
+[2025-11-20 20:15:13] ✅ Updated product 6482, chatgpt_state=1
+[2025-11-20 20:15:13] 🔒 The connection is closed
+[2025-11-20 20:19:28] Start of goods processing
+[2025-11-20 20:19:28] ✅ successfully connected to MySQL
+[2025-11-20 20:19:28] Received 1 items for processing (chatgpt_state IS NULL)
+[2025-11-20 20:19:28] 📝 Product names:
+[2025-11-20 20:19:28] ✅ Prompt successfully loaded from the database
+[2025-11-20 20:19:28] 🔒 The connection is closed
+[2025-11-20 20:19:28] Processing of Item ID=6481, Name='Mercedes W639 Fensterheber -1271-'
+[2025-11-20 20:19:46] 📤 ChatGPT's response to 'Mercedes W639 Fensterheber -1271-':
+{
+    "titel": "Fensterheber vorne links Mercedes Vito/Viano W639 (-1271-)",
+    "SEO": "Mercedes W639 Fensterheber vorne links ohne Motor passend für Vito & Viano",
+    "Kurzbeschreibung": "Elektrischer Fensterheber vorne links ohne Motor für Mercedes Vito/Viano W639.",
+    "Verkaufstext": "Hochwertiger Fensterheber für die linke Vorderseite Ihres Mercedes Vito oder Viano W639. Passend für zahlreiche Diesel-, Benzin- und E-CELL-Varianten ab Baujahr 2003. Ausgelegt für elektrischen Betrieb ohne integrierten Motor, ideal als langlebiger Ersatz bei defektem Originalheber. Kompatibel mit mehreren OE-Nummern der Baureihe 639.",
+    "OE-Nummer": [
+        "A6397200046",
+        "A6397200446",
+        "6397200046",
+        "6397200446"
+    ],
+    "Quelle": [
+        "https://www.autodoc.de/valeo/7515309",
+        "https://www.autodoc.de/abakus/13300505",
+        "https://www.autodoc.de/magneti-marelli/1837095"
+    ],
+    "kompatibilität": [
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "Vito W639",
+            "baujahr_von": "2003",
+            "baujahr_bis": "2025",
+            "motorvarianten": [
+                "120 CDI",
+                "115 CDI 4x4",
+                "111 CDI",
+                "111 CDI 4x4",
+                "126",
+                "109 CDI 4x4",
+                "109 CDI",
+                "123",
+                "122",
+                "115 CDI",
+                "119",
+                "113 CDI 4x4",
+                "116 CDI 4x4",
+                "122 CDI",
+                "116 CDI",
+                "113 CDI",
+                "110 CDI",
+                "CDI 2.2",
+                "CDI 2.0",
+                "CDI 3.0",
+                "CDI 2.2 4-matic",
+                "CDI 2.0 4-matic",
+                "3.5",
+                "3.7",
+                "3.2",
+                "E-CELL"
+            ],
+            "bemerkung": "Fensterheber vorne links, elektrisch, ohne Elektromotor, passend für Modelle mit OE A6397200046 / A6397200446."
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "Vito Mixto W639",
+            "baujahr_von": "2003",
+            "baujahr_bis": "2025",
+            "motorvarianten": [
+                "120 CDI",
+                "115 CDI 4x4",
+                "111 CDI",
+                "111 CDI 4x4",
+                "126",
+                "109 CDI 4x4",
+                "109 CDI",
+                "123",
+                "122",
+                "115 CDI",
+                "119",
+                "113 CDI 4x4",
+                "116 CDI 4x4",
+                "122 CDI",
+                "116 CDI",
+                "113 CDI",
+                "110 CDI",
+                "CDI 2.2",
+                "CDI 2.0",
+                "CDI 3.0",
+                "CDI 2.2 4-matic",
+                "CDI 2.0 4-matic",
+                "3.5",
+                "3.7",
+                "3.2",
+                "E-CELL"
+            ],
+            "bemerkung": "Fensterheber vorne links, elektrisch, ohne Elektromotor, passend für Kasten/Bus-Varianten mit OE A6397200046 / A6397200446."
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "Viano W639",
+            "baujahr_von": "2003",
+            "baujahr_bis": "2025",
+            "motorvarianten": [
+                "120 CDI",
+                "115 CDI 4x4",
+                "111 CDI",
+                "111 CDI 4x4",
+                "126",
+                "109 CDI 4x4",
+                "109 CDI",
+                "123",
+                "122",
+                "115 CDI",
+                "119",
+                "113 CDI 4x4",
+                "116 CDI 4x4",
+                "122 CDI",
+                "116 CDI",
+                "113 CDI",
+                "110 CDI",
+                "CDI 2.2",
+                "CDI 2.0",
+                "CDI 3.0",
+                "CDI 2.2 4-matic",
+                "CDI 2.0 4-matic",
+                "3.5",
+                "3.7",
+                "3.2",
+                "E-CELL"
+            ],
+            "bemerkung": "Fensterheber vorne links, elektrisch, ohne Elektromotor, passend für alle Karosserievarianten mit OE A6397200046 / A6397200446."
+        }
+    ]
+}
+[2025-11-20 20:19:47] ✅ successfully connected to MySQL
+[2025-11-20 20:19:47] ✅ Updated product 6481, chatgpt_state=1
+[2025-11-20 20:19:47] 🔒 The connection is closed

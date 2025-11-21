@@ -26,15 +26,14 @@ def setup_logger():
     logger = logging.getLogger("SystemLogger")
     logger.setLevel(logging.INFO)
 
-    handler = logging.FileHandler(log_file, encoding="utf-8")
-    formatter = logging.Formatter("[%(asctime)s] %(message)s", "%Y-%m-%d %H:%M:%S")
-    handler.setFormatter(formatter)
-    logger.addHandler(handler)
+    if not logger.handlers:
+        handler = logging.FileHandler(log_file, encoding="utf-8")
+        formatter = logging.Formatter("[%(asctime)s] %(message)s", "%Y-%m-%d %H:%M:%S")
+        handler.setFormatter(formatter)
+        logger.addHandler(handler)
 
-    console_handler = logging.StreamHandler()
-    console_handler.setFormatter(formatter)
-    logger.addHandler(console_handler)
+        console_handler = logging.StreamHandler()
+        console_handler.setFormatter(formatter)
+        logger.addHandler(console_handler)
 
     return logger
-
-logger = setup_logger()

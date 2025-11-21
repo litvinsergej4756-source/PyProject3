@@ -1,8 +1,5 @@
 import pymysql
-import json
-import time
 from configuration.config import host, user, password, db_name
-from ChatgptAiManager import ChatgptAiManager
 from configuration.configurate_logs import setup_logger
 import re
 
@@ -11,7 +8,6 @@ logger = setup_logger()
 class DatabaseProductManager:
     def __init__(self):
         self.connection = None
-        self.ai = ChatgptAiManager()
 
     def connect(self):
         try:
@@ -36,17 +32,31 @@ class DatabaseProductManager:
             except:
                 pass
 
-    def read_products(self, limit):
+    #The read_products function reads products from the database — either one by pid or a list by limit.
+    def read_products(self, limit=None, pid=None):
+        if self.connection is None:
+            self.connect()
+
+        if pid is not None:
+            WHERE_PART = "WHERE oc_product.product_id = %s"
+        else:
+            WHERE_PART = ("WHERE oc_product.chatgpt_state IS NULL AND oc_product.status=1 AND price>0")
+
         items = []
         try:
             with self.connection.cursor() as cursor:
-                cursor.execute("""
-                    SELECT oc_product_description.product_id, name, upc, ean 
-                    FROM oc_product_description join oc_product on oc_product_description.product_id = oc_product.product_id 
-                    WHERE oc_product.chatgpt_state IS NULL AND oc_product.status=1 AND price>0
-                    ORDER BY oc_product.product_id DESC
-                    LIMIT %s
-                """, (limit,))
+                sql3 = f"""SELECT oc_product_description.product_id, name, upc, ean 
+                        FROM oc_product_description join oc_product on oc_product_description.product_id = oc_product.product_id
+                        {WHERE_PART}
+                        ORDER BY oc_product.product_id DESC
+                    """
+                if pid is not None:
+                    params = (pid,)
+                else:
+                    sql3 += "LIMIT %s"
+                    params = (limit,)
+
+                cursor.execute(sql3, params)
                 items = cursor.fetchall()
                 logger.info(f"Received {len(items)} items for processing (chatgpt_state IS NULL)")
                 logger.info("📝 Product names:")
@@ -156,76 +166,25 @@ class DatabaseProductManager:
 
         except Exception as e:
             logger.error(f"❌ Database update error: {e}")
-                
-    def fetch_products_and_prompt(self, limit=10, prompt_typ=1):
-        self.connect()
-        try:
-            items = self.read_products(limit)
-            prompt_text = self.read_prompt(prompt_typ)
-            return items, prompt_text
-        finally:
-            self.close()
 
-    def process_product(self, item, prompt_text):
-        product_id = item["product_id"]
-        name = item["name"].strip()
-        manufactorId = ""
-        if "ean" in item and item["ean"] is not None:
-            manufactorId += item["ean"] + " "
-        if "upc" in item and item["upc"] is not None:
-            manufactorId += item["upc"] + " "
-        
-        if manufactorId.strip():
-            name += ", weitere Herstellernummer: " + manufactorId
+    def process_product(self, item, response):
+            product_id = item["product_id"]
+            name = item.get("name", "").strip()
 
-        logger.info(f"Processing of Item ID={product_id}, Name='{name}'")
-        full_prompt = prompt_text.replace("{name}", name)
-        response = self.send_to_chatgpt(name, full_prompt)
+            logger.info(f"Processing of Item ID={product_id}, Name='{name}'")
 
-        self.connect()
-        try:
-            cursor = self.connection.cursor()
-            if response is None or "error" in response:
-                cursor.execute("""
-                    UPDATE oc_product
-                    SET chatgpt_calltime = NOW()
-                    WHERE product_id = %s
-                """, (product_id,))
-                self.connection.commit()
-                logger.warning(f"⚠️ ChatGPT returned error → product {product_id} left with chatgpt_state=NULL")
-            else:
-                self.update_database(product_id, response)
-        finally:
-            self.close()
-
-    def send_to_chatgpt(self, name, full_prompt):
-        #response = self.ai.generate_description(product_name=name, prompt_text=full_prompt)
-        response = self.ai.call_itemdesc_with_browsing(prompt_text=full_prompt) 
-        
-        if not isinstance(response, dict):
-            logger.warning(f"⚠️ ChatGPT's response is raw: {response}")
-            return None
-
-        formatted_json = json.dumps(response, ensure_ascii=False, indent=4)
-        logger.info(f"📤 ChatGPT's response to '{name}':\n{formatted_json}")
-        return response
-
-    def process_all(self, limit=3):
-        logger.info("Start of goods processing")
-
-        items, prompt_text = self.fetch_products_and_prompt(limit=limit)
-
-        if not items:
-            logger.warning("⚠️ There are no products to process")
-            return
-
-        if not prompt_text:
-            logger.error("❌ Prompt is empty or not found!")
-            return
-
-        for item in items:
-            self.process_product(item, prompt_text)
-            time.sleep(1)
-
-if __name__ == "__main__":
-    DatabaseProductManager().process_all()
+            self.connect()
+            try:
+                cursor = self.connection.cursor()
+                if response is None or "error" in response:
+                    cursor.execute("""
+                        UPDATE oc_product
+                        SET chatgpt_calltime = NOW()
+                        WHERE product_id = %s
+                    """, (product_id,))
+                    self.connection.commit()
+                    logger.warning(f"⚠️ ChatGPT returned error → product {product_id} left with chatgpt_state=NULL")
+                else:
+                    self.update_database(product_id, response)
+            finally:
+                self.close()
