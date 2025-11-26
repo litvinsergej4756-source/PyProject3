@@ -1,13 +1,15 @@
-import pymysql
-from configuration.config import host, user, password, db_name
+from ContextController import ContextController
 from configuration.configurate_logs import setup_logger
+from configuration.config import host, user, password, db_name
 import re
+import pymysql
 
 logger = setup_logger()
 
-class DatabaseProductManager:
+class DbModule:
     def __init__(self):
         self.connection = None
+        self.context_controller = ContextController()
 
     def connect(self):
         try:
@@ -34,47 +36,35 @@ class DatabaseProductManager:
 
     #The read_products function reads products from the database — either one by pid or a list by limit.
     def read_products(self, limit=None, pid=None):
-        if self.connection is None:
+        if self.connection is None or not self.connection.open:
             self.connect()
-
-        if pid is not None:
-            WHERE_PART = "WHERE oc_product.product_id = %s"
-        else:
-            WHERE_PART = ("WHERE oc_product.chatgpt_state IS NULL AND oc_product.status=1 AND price>0")
 
         items = []
         try:
-            with self.connection.cursor() as cursor:
-                sql3 = f"""SELECT oc_product_description.product_id, name, upc, ean 
-                        FROM oc_product_description join oc_product on oc_product_description.product_id = oc_product.product_id
-                        {WHERE_PART}
-                        ORDER BY oc_product.product_id DESC
-                    """
-                if pid is not None:
-                    params = (pid,)
-                else:
-                    sql3 += "LIMIT %s"
-                    params = (limit,)
-
-                cursor.execute(sql3, params)
-                items = cursor.fetchall()
-                logger.info(f"Received {len(items)} items for processing (chatgpt_state IS NULL)")
+            items = self.context_controller.fetch_products(self.connection, limit=limit, pid=pid)
+            
+            logger.info(f"Received {len(items)} items for processing (chatgpt_state IS NULL)")
+            
+            if items:
                 logger.info("📝 Product names:")
                 for item in items:
-                    print(f"  - {item['name']}")
+                    print(f"  - {item['name']}")
+
         except Exception as e:
             logger.error(f"❌ Error reading goods: {e}")
         
         return items
-    
+        
     def read_prompt(self, prompt_typ):
         prompt_text = None
         try:
-            with self.connection.cursor() as cursor:
-                cursor.execute("SELECT prompt_text FROM oc_prompts_ai WHERE prompt_typ = %s", (prompt_typ,))
-                row = cursor.fetchone()
-                prompt_text = row["prompt_text"] if row else None
+            prompt_text = self.context_controller.fetch_prompt(self.connection, prompt_typ)
+            
+            if prompt_text:
                 logger.info("✅ Prompt successfully loaded from the database")
+            else:
+                logger.warning(f"⚠️ Prompt not found for type")
+                
         except Exception as e:
             logger.error(f"❌ Error reading prompt: {e}")
         
@@ -168,23 +158,73 @@ class DatabaseProductManager:
             logger.error(f"❌ Database update error: {e}")
 
     def process_product(self, item, response):
-            product_id = item["product_id"]
-            name = item.get("name", "").strip()
+        product_id = item["product_id"]
+        name = item.get("name", "").strip()
 
-            logger.info(f"Processing of Item ID={product_id}, Name='{name}'")
+        logger.info(f"Processing of Item ID={product_id}, Name='{name}'")
 
-            self.connect()
+        self.connect()
+        try:
+            cursor = self.connection.cursor()
+            if response is None or "error" in response:
+                cursor.execute("""
+                    UPDATE oc_product
+                    SET chatgpt_calltime = NOW()
+                    WHERE product_id = %s
+                """, (product_id,))
+                self.connection.commit()
+                logger.warning(f"⚠️ ChatGPT returned error → product {product_id} left with chatgpt_state=NULL")
+            else:
+                self.update_database(product_id, response)
+
+        except Exception as e:
+            logger.error(f"❌ Error in process_product for ID={product_id}: {e}")
+
+        finally:
+            self.close()
+
+    #The fetch_products_and_prompt function retrieves products and the corresponding prompt from the database.
+    def fetch_products_and_prompt(self, limit=None, pid=None, prompt_typ=1):
+        self.connect()
+        try:
+            items = self.read_products(limit=limit, pid=pid)
+            prompt_text = self.read_prompt(prompt_typ)
+            return items, prompt_text
+        finally:
+            self.close()
+            
+    #The function processes a JSONL result set (with multiple products) and updates the corresponding products in the database.
+    def process_batch_results(self, jsonl_results_text):
+        successful_updates = 0
+        
+        for data in self.context_controller.parse_jsonl_results(jsonl_results_text):
+            product_id = -1
             try:
-                cursor = self.connection.cursor()
-                if response is None or "error" in response:
-                    cursor.execute("""
-                        UPDATE oc_product
-                        SET chatgpt_calltime = NOW()
-                        WHERE product_id = %s
-                    """, (product_id,))
-                    self.connection.commit()
-                    logger.warning(f"⚠️ ChatGPT returned error → product {product_id} left with chatgpt_state=NULL")
-                else:
-                    self.update_database(product_id, response)
-            finally:
-                self.close()
+                product_id, response_json, log_output, error_message = \
+                    self.context_controller.process_single_batch_result(data)
+                
+                if not product_id or not isinstance(product_id, int):
+                    continue
+
+                if response_json:
+                    if log_output:
+                        print(log_output)
+                        logger.info(log_output)
+
+                    items_list = self.read_products(pid=product_id)
+                    item = items_list[0] if items_list else None
+                    
+                    if item:
+                        self.process_product(item, response_json) 
+                        successful_updates += 1
+                    else:
+                        logger.error(f"❌ Product ID={product_id} not found in DB for update.")
+
+                elif error_message:
+                    logger.error(f"❌ Batch error for ID={product_id}: {error_message}")
+                    print(f"❌ Batch error for ID={product_id}: {error_message}")
+
+            except Exception as e:
+                logger.error(f"💥 Critical Loop Error processing item {product_id}: {e}")
+
+        logger.info(f"🎉 Batch results processing finished. Updated {successful_updates} products.")

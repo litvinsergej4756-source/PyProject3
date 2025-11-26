@@ -1,0 +1,59 @@
+[2025-11-25 20:19:49] Start of goods processing
+[2025-11-25 20:19:50] ✅ successfully connected to MySQL
+[2025-11-25 20:19:50] Received 4 items for processing (chatgpt_state IS NULL)
+[2025-11-25 20:19:50] 📝 Product names:
+[2025-11-25 20:19:50] ✅ Prompt successfully loaded from the database
+[2025-11-25 20:19:50] 🔒 The connection is closed
+[2025-11-25 20:19:50] 🔄 Running in BATCH SUBMISSION mode (limit=4).
+[2025-11-25 20:19:50] ✅ Created local input file: batch_files\batch_input_1764094790.jsonl with 4 requests.
+[2025-11-25 20:19:50] ⬆️ Uploading batch input file...
+[2025-11-25 20:19:55] ✅ File uploaded. ID: file-P7Y36z1n8d61SrmRogNisL
+[2025-11-25 20:19:55] 🚀 Creating batch job...
+[2025-11-25 20:19:55] 🔥 Batch job created. ID: batch_6925f34bbe4c81908363074d3c7c9a77, Status: validating
+[2025-11-25 20:19:55] 🔥 Batch job created. ID: batch_6925f34bbe4c81908363074d3c7c9a77, Status: validating
+[2025-11-25 20:19:55] ✨ To monitor status, run: python MainController.py batch_id=batch_6925f34bbe4c81908363074d3c7c9a77
+[2025-11-25 20:19:55] Finishing processing.
+[2025-11-25 20:26:46] Start of goods processing
+[2025-11-25 20:26:46] 🔄 Starting retrieval of results for Batch ID: batch_6925f34bbe4c81908363074d3c7c9a77
+[2025-11-25 20:26:48] ❌ Failed to process batch batch_6925f34bbe4c81908363074d3c7c9a77: Batch is not completed (Status: in_progress)
+[2025-11-25 20:26:48] Finishing processing after monitor.
+[2025-11-25 20:30:00] Start of goods processing
+[2025-11-25 20:30:00] 🔄 Starting retrieval of results for Batch ID: batch_6925f34bbe4c81908363074d3c7c9a77
+[2025-11-25 20:30:01] ❌ Failed to process batch batch_6925f34bbe4c81908363074d3c7c9a77: Batch is not completed (Status: in_progress)
+[2025-11-25 20:30:01] Finishing processing after monitor.
+[2025-11-25 20:35:11] Start of goods processing
+[2025-11-25 20:35:11] 🔄 Starting retrieval of results for Batch ID: batch_6925f34bbe4c81908363074d3c7c9a77
+[2025-11-25 20:35:11] ❌ Failed to process batch batch_6925f34bbe4c81908363074d3c7c9a77: Batch is not completed (Status: in_progress)
+[2025-11-25 20:35:11] Finishing processing after monitor.
+[2025-11-25 20:37:13] Start of goods processing
+[2025-11-25 20:37:13] 🔄 Starting retrieval of results for Batch ID: batch_6925f34bbe4c81908363074d3c7c9a77
+[2025-11-25 20:37:14] ❌ Failed to process batch batch_6925f34bbe4c81908363074d3c7c9a77: Batch is not completed (Status: in_progress)
+[2025-11-25 20:37:14] Finishing processing after monitor.
+[2025-11-25 20:39:32] Start of goods processing
+[2025-11-25 20:39:32] 🔄 Starting retrieval of results for Batch ID: batch_6925f34bbe4c81908363074d3c7c9a77
+[2025-11-25 20:39:33] ❌ Failed to process batch batch_6925f34bbe4c81908363074d3c7c9a77: Batch is not completed (Status: in_progress)
+[2025-11-25 20:39:33] Finishing processing after monitor.
+[2025-11-25 20:41:41] Start of goods processing
+[2025-11-25 20:41:41] 🔄 Starting retrieval of results for Batch ID: batch_6925f34bbe4c81908363074d3c7c9a77
+[2025-11-25 20:41:42] ❌ Failed to process batch batch_6925f34bbe4c81908363074d3c7c9a77: Batch is not completed (Status: in_progress)
+[2025-11-25 20:41:42] Finishing processing after monitor.
+[2025-11-25 20:42:36] Start of goods processing
+[2025-11-25 20:42:36] 🔄 Starting retrieval of results for Batch ID: batch_6925f34bbe4c81908363074d3c7c9a77
+[2025-11-25 20:42:37] ❌ Failed to process batch batch_6925f34bbe4c81908363074d3c7c9a77: Batch is not completed (Status: in_progress)
+[2025-11-25 20:42:37] Finishing processing after monitor.
+[2025-11-25 20:45:16] Start of goods processing
+[2025-11-25 20:45:16] 🔄 Starting retrieval of results for Batch ID: batch_6925f34bbe4c81908363074d3c7c9a77
+[2025-11-25 20:45:17] ❌ Failed to process batch batch_6925f34bbe4c81908363074d3c7c9a77: Batch is not completed (Status: in_progress)
+[2025-11-25 20:45:17] Finishing processing after monitor.
+[2025-11-25 20:52:39] Start of goods processing
+[2025-11-25 20:52:39] 🔄 Starting retrieval of results for Batch ID: batch_6925f34bbe4c81908363074d3c7c9a77
+[2025-11-25 20:52:40] ❌ Failed to process batch batch_6925f34bbe4c81908363074d3c7c9a77: Batch is not completed (Status: in_progress)
+[2025-11-25 20:52:40] Finishing processing after monitor.
+[2025-11-25 21:05:08] Start of goods processing
+[2025-11-25 21:05:08] 🔄 Starting retrieval of results for Batch ID: batch_6925f34bbe4c81908363074d3c7c9a77
+[2025-11-25 21:05:08] ❌ Failed to process batch batch_6925f34bbe4c81908363074d3c7c9a77: Batch is not completed (Status: in_progress)
+[2025-11-25 21:05:08] Finishing processing after monitor.
+[2025-11-25 21:08:34] Start of goods processing
+[2025-11-25 21:08:34] 🔄 Starting retrieval of results for Batch ID: batch_6925f34bbe4c81908363074d3c7c9a77
+[2025-11-25 21:08:35] ❌ Failed to process batch batch_6925f34bbe4c81908363074d3c7c9a77: Batch is not completed (Status: in_progress)
+[2025-11-25 21:08:35] Finishing processing after monitor.

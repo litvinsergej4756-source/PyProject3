@@ -1,0 +1,972 @@
+[2025-11-23 15:23:16] Start of goods processing
+[2025-11-23 15:23:16] ✅ successfully connected to MySQL
+[2025-11-23 15:23:16] ❌ SQL Execution Error: 'str' object has no attribute 'cursor'
+[2025-11-23 15:23:16] ❌ Error reading goods: 'str' object has no attribute 'cursor'
+[2025-11-23 15:23:16] ❌ SQL Execution Error (fetch_one): 'str' object has no attribute 'cursor'
+[2025-11-23 15:23:16] ❌ Error reading prompt: 'str' object has no attribute 'cursor'
+[2025-11-23 15:23:16] 🔒 The connection is closed
+[2025-11-23 15:23:16] ⚠️ There are no products to process
+[2025-11-23 15:27:49] Start of goods processing
+[2025-11-23 15:27:49] ✅ successfully connected to MySQL
+[2025-11-23 15:27:49] ❌ SQL Execution Error: 'str' object has no attribute 'cursor'
+[2025-11-23 15:27:49] ❌ Error reading goods: 'str' object has no attribute 'cursor'
+[2025-11-23 15:27:49] ❌ SQL Execution Error (fetch_one): 'str' object has no attribute 'cursor'
+[2025-11-23 15:27:49] ❌ Error reading prompt: 'str' object has no attribute 'cursor'
+[2025-11-23 15:27:49] 🔒 The connection is closed
+[2025-11-23 15:27:49] ⚠️ There are no products to process
+[2025-11-23 15:34:58] Start of goods processing
+[2025-11-23 15:34:58] ✅ successfully connected to MySQL
+[2025-11-23 15:34:58] Received 2 items for processing (chatgpt_state IS NULL)
+[2025-11-23 15:34:58] 📝 Product names:
+[2025-11-23 15:34:59] ✅ Prompt successfully loaded from the database
+[2025-11-23 15:34:59] 🔒 The connection is closed
+[2025-11-23 15:35:21] 📤 ChatGPT's response to 'Mercedes Sprinter W901-W905 Fensterheber rechts -5625-':
+{
+    "titel": "Fensterheber rechts für Mercedes Sprinter W901–W905",
+    "SEO": "Mercedes Sprinter W901-W905 Fensterheber rechts passend für 2-t/3,5-t Bus & Pritsche",
+    "Kurzbeschreibung": "Rechter Fensterheber für Mercedes Sprinter W901–W905, passgenau für viele Modelle.",
+    "Verkaufstext": "Hochwertiger Fensterheber rechts für Mercedes Sprinter W901–W905. Passend für zahlreiche 2-t und 3,5-t Bus- und Pritschen-Modelle. Ideal als Ersatz bei schwergängigen oder ausgefallenen Fensterhebern. Robuste Ausführung für lange Lebensdauer und zuverlässige Funktion.",
+    "OE-Nummer": [],
+    "Quelle": [
+        "https://www.autodoc.de/autoteile/fensterheber-12791/mercedes-benz/sprinter/sprinter-2-t-pritsche-fahrgestell-901-902",
+        "https://www.autodoc.de/autoteile/fensterheber-12791/mercedes-benz/sprinter/sprinter-4-t-pritsche-fahrgestell-904"
+    ],
+    "kompatibilität": [
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "Sprinter 2-t Pritsche/Fahrgestell (W901, W902) 208",
+            "baujahr_von": "1995",
+            "baujahr_bis": "2006",
+            "motorvarianten": [
+                ""
+            ],
+            "bemerkung": "Vorne rechts, passend für 2-t Pritsche/Fahrgestell Baureihe W901/W902."
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "Sprinter 2-t Pritsche/Fahrgestell (W901, W902) 210",
+            "baujahr_von": "1995",
+            "baujahr_bis": "2006",
+            "motorvarianten": [
+                ""
+            ],
+            "bemerkung": "Vorne rechts, passend für 2-t Pritsche/Fahrgestell Baureihe W901/W902."
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "Sprinter 2-t Pritsche/Fahrgestell (W901, W902) 211",
+            "baujahr_von": "1995",
+            "baujahr_bis": "2006",
+            "motorvarianten": [
+                ""
+            ],
+            "bemerkung": "Vorne rechts, passend für 2-t Pritsche/Fahrgestell Baureihe W901/W902."
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "Sprinter 2-t Pritsche/Fahrgestell (W901, W902) 212",
+            "baujahr_von": "1995",
+            "baujahr_bis": "2006",
+            "motorvarianten": [
+                ""
+            ],
+            "bemerkung": "Vorne rechts, passend für 2-t Pritsche/Fahrgestell Baureihe W901/W902."
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "Sprinter 2-t Pritsche/Fahrgestell (W901, W902) 213",
+            "baujahr_von": "1995",
+            "baujahr_bis": "2006",
+            "motorvarianten": [
+                ""
+            ],
+            "bemerkung": "Vorne rechts, passend für 2-t Pritsche/Fahrgestell Baureihe W901/W902."
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "Sprinter 2-t Pritsche/Fahrgestell (W901, W902) 214",
+            "baujahr_von": "1995",
+            "baujahr_bis": "2006",
+            "motorvarianten": [
+                ""
+            ],
+            "bemerkung": "Vorne rechts, passend für 2-t Pritsche/Fahrgestell Baureihe W901/W902."
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "Sprinter 2-t Pritsche/Fahrgestell (W901, W902) 216",
+            "baujahr_von": "1995",
+            "baujahr_bis": "2006",
+            "motorvarianten": [
+                ""
+            ],
+            "bemerkung": "Vorne rechts, passend für 2-t Pritsche/Fahrgestell Baureihe W901/W902."
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "Sprinter 4-t Pritsche/Fahrgestell (W904) 408 CDI",
+            "baujahr_von": "2000",
+            "baujahr_bis": "2006",
+            "motorvarianten": [
+                ""
+            ],
+            "bemerkung": "Vorne rechts, passend für 4-t Pritsche/Fahrgestell Baureihe W904."
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "Sprinter 4-t Pritsche/Fahrgestell (W904) 408 D",
+            "baujahr_von": "1996",
+            "baujahr_bis": "2006",
+            "motorvarianten": [
+                ""
+            ],
+            "bemerkung": "Vorne rechts, passend für 4-t Pritsche/Fahrgestell Baureihe W904."
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "Sprinter 4-t Pritsche/Fahrgestell (W904) 410 D",
+            "baujahr_von": "1996",
+            "baujahr_bis": "2006",
+            "motorvarianten": [
+                ""
+            ],
+            "bemerkung": "Vorne rechts, inkl. 4x4-Varianten, Baureihe W904."
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "Sprinter 4-t Pritsche/Fahrgestell (W904) 411 CDI",
+            "baujahr_von": "2000",
+            "baujahr_bis": "2006",
+            "motorvarianten": [
+                ""
+            ],
+            "bemerkung": "Vorne rechts, inkl. 4x4-Varianten, Baureihe W904."
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "Sprinter 4-t Pritsche/Fahrgestell (W904) 412 D",
+            "baujahr_von": "1996",
+            "baujahr_bis": "2006",
+            "motorvarianten": [
+                ""
+            ],
+            "bemerkung": "Vorne rechts, verschiedene Leistungsstufen (u. a. 2.9, 2.5, 4x4), Baureihe W904."
+        }
+    ]
+}
+[2025-11-23 15:40:55] Start of goods processing
+[2025-11-23 15:40:55] ✅ successfully connected to MySQL
+[2025-11-23 15:40:55] Received 1 items for processing (chatgpt_state IS NULL)
+[2025-11-23 15:40:55] 📝 Product names:
+[2025-11-23 15:40:55] ✅ Prompt successfully loaded from the database
+[2025-11-23 15:40:55] 🔒 The connection is closed
+[2025-11-23 15:41:21] 📤 ChatGPT's response to 'Mercedes Sprinter W901-W905 Fensterheber rechts -5625-':
+{
+    "titel": "Fensterheber rechts vorne für Mercedes Sprinter W901-W905",
+    "SEO": "Mercedes Sprinter W901-W905 Fensterheber rechts vorne kompatibel mit OE 9017201946",
+    "Kurzbeschreibung": "Rechter Fensterheber vorne passend für Mercedes Sprinter W901-W905, OE 9017201946.",
+    "Verkaufstext": "Hochwertiger Fensterheber für die rechte vordere Tür Ihres Mercedes Sprinter W901-W905. Passend zu den Originalnummern 9017201946 / A9017201946 / 9017201146 / A9017201146. Für zahlreiche Sprinter-Varianten von 2t bis 5t, Kasten, Bus und Pritsche/Fahrgestell mit Diesel- und CDI-Motoren geeignet.",
+    "OE-Nummer": [
+        "9017201946",
+        "A9017201946",
+        "9017201146",
+        "A9017201146"
+    ],
+    "Quelle": [
+        "https://www.autodoc.de/valeo/1110922"
+    ],
+    "kompatibilität": [
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "Sprinter 2-T Pritsche/Fahrgestell (W901, W902)",
+            "baujahr_von": "1995",
+            "baujahr_bis": "2006",
+            "motorvarianten": [
+                "208 D",
+                "210 D",
+                "212 D",
+                "214",
+                "214 NGT",
+                "308 D",
+                "310 D",
+                "312 D 2.9",
+                "310 D 2.9",
+                "308 E",
+                "310 D 4x4",
+                "308 CDI",
+                "408 CDI",
+                "408 D",
+                "408 CDI",
+                "410 D",
+                "410 D 4x4",
+                "412 D",
+                "412 D 4x4",
+                "413 CDI",
+                "413 CDI 4x4",
+                "414",
+                "414 4x4",
+                "414 D 4x4",
+                "416 CDI",
+                "416 CDI 4x4",
+                "616 CDI",
+                "211 CDI",
+                "213 CDI",
+                "216 CDI",
+                "308 CDI",
+                "311 CDI",
+                "313 CDI",
+                "316 CDI",
+                "311 CDI 4x4",
+                "313 CDI 4x4",
+                "316 CDI 4x4",
+                "314",
+                "314 4x4",
+                "314 NGT",
+                "208 CDI"
+            ],
+            "bemerkung": "Rechter Fensterheber vorne, elektrisch, für 2-t Pritsche/Fahrgestell W901/W902."
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "Sprinter 2t Bus",
+            "baujahr_von": "1995",
+            "baujahr_bis": "2006",
+            "motorvarianten": [
+                "208 D",
+                "210 D",
+                "212 D",
+                "214",
+                "214 NGT",
+                "308 D",
+                "310 D",
+                "312 D 2.9",
+                "310 D 2.9",
+                "308 E",
+                "310 D 4x4",
+                "308 CDI",
+                "408 CDI",
+                "408 D",
+                "410 D",
+                "410 D 4x4",
+                "412 D",
+                "412 D 4x4",
+                "413 CDI",
+                "413 CDI 4x4",
+                "414",
+                "414 4x4",
+                "414 D 4x4",
+                "416 CDI",
+                "416 CDI 4x4",
+                "616 CDI",
+                "211 CDI",
+                "213 CDI",
+                "216 CDI",
+                "308 CDI",
+                "311 CDI",
+                "313 CDI",
+                "316 CDI",
+                "311 CDI 4x4",
+                "313 CDI 4x4",
+                "316 CDI 4x4",
+                "314",
+                "314 4x4",
+                "314 NGT",
+                "208 CDI"
+            ],
+            "bemerkung": "Rechter vorderer Fensterheber für Sprinter 2t Bus-Modelle."
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "Sprinter 2t Kastenwagen (W903)",
+            "baujahr_von": "1995",
+            "baujahr_bis": "2006",
+            "motorvarianten": [
+                "208 D",
+                "210 D",
+                "212 D",
+                "214",
+                "214 NGT",
+                "308 D",
+                "310 D",
+                "312 D 2.9",
+                "310 D 2.9",
+                "308 E",
+                "310 D 4x4",
+                "308 CDI",
+                "408 CDI",
+                "408 D",
+                "410 D",
+                "410 D 4x4",
+                "412 D",
+                "412 D 4x4",
+                "413 CDI",
+                "413 CDI 4x4",
+                "414",
+                "414 4x4",
+                "414 D 4x4",
+                "416 CDI",
+                "416 CDI 4x4",
+                "616 CDI",
+                "211 CDI",
+                "213 CDI",
+                "216 CDI",
+                "308 CDI",
+                "311 CDI",
+                "313 CDI",
+                "316 CDI",
+                "311 CDI 4x4",
+                "313 CDI 4x4",
+                "316 CDI 4x4",
+                "314",
+                "314 4x4",
+                "314 NGT",
+                "208 CDI"
+            ],
+            "bemerkung": "Passend für rechte vordere Tür, alle 2t-Kastenwagen W903."
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "Sprinter 3t Kastenwagen (W903)",
+            "baujahr_von": "1995",
+            "baujahr_bis": "2006",
+            "motorvarianten": [
+                "208 D",
+                "210 D",
+                "212 D",
+                "214",
+                "214 NGT",
+                "308 D",
+                "310 D",
+                "312 D 2.9",
+                "310 D 2.9",
+                "308 E",
+                "310 D 4x4",
+                "308 CDI",
+                "408 CDI",
+                "408 D",
+                "410 D",
+                "410 D 4x4",
+                "412 D",
+                "412 D 4x4",
+                "413 CDI",
+                "413 CDI 4x4",
+                "414",
+                "414 4x4",
+                "414 D 4x4",
+                "416 CDI",
+                "416 CDI 4x4",
+                "616 CDI",
+                "211 CDI",
+                "213 CDI",
+                "216 CDI",
+                "308 CDI",
+                "311 CDI",
+                "313 CDI",
+                "316 CDI",
+                "311 CDI 4x4",
+                "313 CDI 4x4",
+                "316 CDI 4x4",
+                "314",
+                "314 4x4",
+                "314 NGT",
+                "208 CDI"
+            ],
+            "bemerkung": "Rechter Fensterheber vorne für 3t-Kastenwagen W903."
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "Sprinter 3-T Pritsche/Fahrgestell (W903)",
+            "baujahr_von": "1995",
+            "baujahr_bis": "2006",
+            "motorvarianten": [
+                "208 D",
+                "210 D",
+                "212 D",
+                "214",
+                "214 NGT",
+                "308 D",
+                "310 D",
+                "312 D 2.9",
+                "310 D 2.9",
+                "308 E",
+                "310 D 4x4",
+                "308 CDI",
+                "408 CDI",
+                "408 D",
+                "410 D",
+                "410 D 4x4",
+                "412 D",
+                "412 D 4x4",
+                "413 CDI",
+                "413 CDI 4x4",
+                "414",
+                "414 4x4",
+                "414 D 4x4",
+                "416 CDI",
+                "416 CDI 4x4",
+                "616 CDI",
+                "211 CDI",
+                "213 CDI",
+                "216 CDI",
+                "308 CDI",
+                "311 CDI",
+                "313 CDI",
+                "316 CDI",
+                "311 CDI 4x4",
+                "313 CDI 4x4",
+                "316 CDI 4x4",
+                "314",
+                "314 4x4",
+                "314 NGT",
+                "208 CDI"
+            ],
+            "bemerkung": "Für rechte vordere Tür an 3-Tonner Pritsche/Fahrgestell W903."
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "Sprinter 4-T Kastenwagen (W904)",
+            "baujahr_von": "1995",
+            "baujahr_bis": "2006",
+            "motorvarianten": [
+                "208 D",
+                "210 D",
+                "212 D",
+                "214",
+                "214 NGT",
+                "308 D",
+                "310 D",
+                "312 D 2.9",
+                "310 D 2.9",
+                "308 E",
+                "310 D 4x4",
+                "308 CDI",
+                "408 CDI",
+                "408 D",
+                "410 D",
+                "410 D 4x4",
+                "412 D",
+                "412 D 4x4",
+                "413 CDI",
+                "413 CDI 4x4",
+                "414",
+                "414 4x4",
+                "414 D 4x4",
+                "416 CDI",
+                "416 CDI 4x4",
+                "616 CDI",
+                "211 CDI",
+                "213 CDI",
+                "216 CDI",
+                "308 CDI",
+                "311 CDI",
+                "313 CDI",
+                "316 CDI",
+                "311 CDI 4x4",
+                "313 CDI 4x4",
+                "316 CDI 4x4",
+                "314",
+                "314 4x4",
+                "314 NGT",
+                "208 CDI"
+            ],
+            "bemerkung": "Rechter Fensterheber vorne für 4-Tonner Kasten W904."
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "Sprinter 4t",
+            "baujahr_von": "1995",
+            "baujahr_bis": "2006",
+            "motorvarianten": [
+                "208 D",
+                "210 D",
+                "212 D",
+                "214",
+                "214 NGT",
+                "308 D",
+                "310 D",
+                "312 D 2.9",
+                "310 D 2.9",
+                "308 E",
+                "310 D 4x4",
+                "308 CDI",
+                "408 CDI",
+                "408 D",
+                "410 D",
+                "410 D 4x4",
+                "412 D",
+                "412 D 4x4",
+                "413 CDI",
+                "413 CDI 4x4",
+                "414",
+                "414 4x4",
+                "414 D 4x4",
+                "416 CDI",
+                "416 CDI 4x4",
+                "616 CDI",
+                "211 CDI",
+                "213 CDI",
+                "216 CDI",
+                "308 CDI",
+                "311 CDI",
+                "313 CDI",
+                "316 CDI",
+                "311 CDI 4x4",
+                "313 CDI 4x4",
+                "316 CDI 4x4",
+                "314",
+                "314 4x4",
+                "314 NGT",
+                "208 CDI"
+            ],
+            "bemerkung": "Für diverse 4t-Sprinter-Varianten mit identischen Türen."
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "Sprinter 5-T Pritsche/Fahrgestell (W905)",
+            "baujahr_von": "1995",
+            "baujahr_bis": "2006",
+            "motorvarianten": [
+                "408 D",
+                "410 D",
+                "410 D 4x4",
+                "412 D",
+                "412 D 4x4",
+                "413 CDI",
+                "413 CDI 4x4",
+                "414",
+                "414 4x4",
+                "414 D 4x4",
+                "416 CDI",
+                "416 CDI 4x4",
+                "616 CDI",
+                "311 CDI",
+                "313 CDI",
+                "316 CDI",
+                "311 CDI 4x4",
+                "313 CDI 4x4",
+                "316 CDI 4x4"
+            ],
+            "bemerkung": "Rechter vorderer Fensterheber für 5-Tonner Pritsche/Fahrgestell W905."
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "Sprinter W903 Kastenwagen allgemein",
+            "baujahr_von": "1995",
+            "baujahr_bis": "2006",
+            "motorvarianten": [
+                "308 D 2.3",
+                "310 D 2.9",
+                "312 D 2.9 4x4",
+                "308 D",
+                "310 D",
+                "308 E",
+                "310 D 4x4",
+                "308 CDI",
+                "408 CDI",
+                "408 D",
+                "410 D",
+                "410 D 4x4",
+                "412 D",
+                "412 D 4x4",
+                "413 CDI",
+                "413 CDI 4x4",
+                "414",
+                "414 4x4",
+                "414 D 4x4",
+                "416 CDI",
+                "416 CDI 4x4",
+                "616 CDI",
+                "211 CDI",
+                "213 CDI",
+                "216 CDI",
+                "308 CDI",
+                "311 CDI",
+                "313 CDI",
+                "316 CDI",
+                "311 CDI 4x4",
+                "313 CDI 4x4",
+                "316 CDI 4x4",
+                "314",
+                "314 4x4",
+                "314 NGT",
+                "214 NGT",
+                "208 CDI",
+                "208 D",
+                "210 D",
+                "212 D",
+                "214"
+            ],
+            "bemerkung": "Zusammenfassung aller W903-Kastenvarianten mit gleicher Türgeometrie."
+        }
+    ]
+}
+[2025-11-23 15:41:21] Processing of Item ID=6477, Name='Mercedes Sprinter W901-W905 Fensterheber rechts -5625-'
+[2025-11-23 15:41:21] ✅ successfully connected to MySQL
+[2025-11-23 15:41:21] ❌ SQL Execution Error (fetch_one): unsupported operand type(s) for %: 'tuple' and 'tuple'
+[2025-11-23 15:41:21] ❌ Database update error: unsupported operand type(s) for %: 'tuple' and 'tuple'
+[2025-11-23 15:41:21] 🔒 The connection is closed
+[2025-11-23 15:44:26] Start of goods processing
+[2025-11-23 15:44:27] ✅ successfully connected to MySQL
+[2025-11-23 15:44:27] Received 1 items for processing (chatgpt_state IS NULL)
+[2025-11-23 15:44:27] 📝 Product names:
+[2025-11-23 15:44:27] ✅ Prompt successfully loaded from the database
+[2025-11-23 15:44:27] 🔒 The connection is closed
+[2025-11-23 15:44:40] 📤 ChatGPT's response to 'Mercedes Sprinter W901-W905 Fensterheber rechts -5625-':
+{
+    "titel": "Fensterheber rechts für Mercedes Sprinter W901-W905 -5625-",
+    "SEO": "Mercedes Sprinter W901-W905 Fensterheber rechts -5625- Ersatzteil günstig kaufen",
+    "Kurzbeschreibung": "Rechter Fensterheber für Mercedes Sprinter W901-W905, passend für viele Motorvarianten.",
+    "Verkaufstext": "Stabiler Fensterheber rechts für Mercedes Sprinter W901-W905. Passend für zahlreiche Sprinter-Modelle der Baujahre 1995–2006 mit diversen Diesel-, Benzin- und CDI-Motoren. Idealer Ersatz bei schwergängigen oder defekten Fensterhebern. Hochwertige Ausführung für langfristige, zuverlässige Funktion.",
+    "OE-Nummer": [],
+    "Quelle": [],
+    "kompatibilität": [
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "Sprinter 2-T Kasten / Bus / Pritsche (W901, W902, W903)",
+            "baujahr_von": "1995",
+            "baujahr_bis": "2006",
+            "motorvarianten": [
+                "208 D",
+                "210 D",
+                "212 D",
+                "214",
+                "214 NGT",
+                "308 D",
+                "308 D 2.3",
+                "308 E",
+                "308 CDI",
+                "310 D",
+                "310 D 2.9",
+                "310 D 4x4",
+                "312 D 2.9",
+                "312 D 2.9 4x4",
+                "311 CDI",
+                "311 CDI 4x4",
+                "313 CDI",
+                "313 CDI 4x4",
+                "314",
+                "314 4x4",
+                "314 NGT",
+                "316 CDI",
+                "316 CDI 4x4"
+            ],
+            "bemerkung": ""
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "Sprinter 3-T Kasten / Bus / Pritsche (W903, W904)",
+            "baujahr_von": "1995",
+            "baujahr_bis": "2006",
+            "motorvarianten": [
+                "408 D",
+                "408 CDI",
+                "410 D",
+                "410 D 4x4",
+                "412 D",
+                "412 D 4x4",
+                "413 CDI",
+                "413 CDI 4x4",
+                "414",
+                "414 4x4",
+                "416 CDI",
+                "416 CDI 4x4",
+                "411 CDI",
+                "411 CDI 4x4"
+            ],
+            "bemerkung": ""
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "Sprinter 4-T / 5-T Pritsche/Fahrgestell (W904, W905)",
+            "baujahr_von": "1995",
+            "baujahr_bis": "2006",
+            "motorvarianten": [
+                "414",
+                "414 4x4",
+                "416 CDI",
+                "416 CDI 4x4",
+                "616 CDI"
+            ],
+            "bemerkung": ""
+        }
+    ]
+}
+[2025-11-23 15:44:40] Processing of Item ID=6477, Name='Mercedes Sprinter W901-W905 Fensterheber rechts -5625-'
+[2025-11-23 15:44:40] ✅ successfully connected to MySQL
+[2025-11-23 15:44:41] ❌ Database update error: ContextController.commit() missing 1 required positional argument: 'connection'
+[2025-11-23 15:44:41] 🔒 The connection is closed
+[2025-11-23 15:46:31] Start of goods processing
+[2025-11-23 15:46:31] ✅ successfully connected to MySQL
+[2025-11-23 15:46:31] Received 1 items for processing (chatgpt_state IS NULL)
+[2025-11-23 15:46:31] 📝 Product names:
+[2025-11-23 15:46:31] ✅ Prompt successfully loaded from the database
+[2025-11-23 15:46:31] 🔒 The connection is closed
+[2025-11-23 15:48:58] Start of goods processing
+[2025-11-23 15:48:58] ✅ successfully connected to MySQL
+[2025-11-23 15:48:58] Received 2 items for processing (chatgpt_state IS NULL)
+[2025-11-23 15:48:58] 📝 Product names:
+[2025-11-23 15:48:58] ✅ Prompt successfully loaded from the database
+[2025-11-23 15:48:58] 🔒 The connection is closed
+[2025-11-23 15:49:15] 📤 ChatGPT's response to 'Mercedes Sprinter W901-W905 Fensterheber rechts -5623-':
+{
+    "titel": "Fensterheber rechts vorne für Mercedes Sprinter W901–W905, manuell",
+    "SEO": "Mercedes Sprinter W901-W905 Fensterheber rechts vorne manuell Ersatzteil",
+    "Kurzbeschreibung": "Rechter vorderer Fensterheber, manuell, passend für Mercedes Sprinter W901–W905.",
+    "Verkaufstext": "Hochwertiger manueller Fensterheber für die rechte Vorderseite Ihres Mercedes Sprinter W901–W905. Passgenau für 2-t, 3-t, 4-t und 5-t Modelle der ersten Sprinter-Generation, ideal als Ersatz bei schwergängigen oder defekten Fenstermechaniken. Robuste Ausführung für langlebige Funktion und zuverlässigen Betrieb im täglichen Einsatz.",
+    "OE-Nummer": [
+        "9017201546"
+    ],
+    "Quelle": [
+        "https://www.autodoc.de/autoteile/fensterheber-12791/mercedes-benz/sprinter/sprinter-2-t-kasten-901-902",
+        "https://www.autodoc.de/autoteile/fensterheber-12791/mercedes-benz/sprinter/sprinter-3-t-kasten-903",
+        "https://www.autodoc.de/autoteile/fensterheber-12791/mercedes-benz/sprinter/sprinter-4-t-pritsche-fahrgestell-904",
+        "https://www.autodoc.de/autoteile/fensterheber-12791/mercedes-benz/sprinter/sprinter-classic-4-6-t-bus-909"
+    ],
+    "kompatibilität": [
+        {
+            "marke": "MERCEDES-BENZ",
+            "modell": "Sprinter 2-t Kasten (W901/W902)",
+            "baujahr_von": "1995",
+            "baujahr_bis": "2006",
+            "motorvarianten": [
+                ""
+            ],
+            "bemerkung": "Vorne rechts, manuell, 2-t Kasten; passend zu OE 9017201546."
+        },
+        {
+            "marke": "MERCEDES-BENZ",
+            "modell": "Sprinter 2-t Pritsche/Fahrgestell (W901/W902)",
+            "baujahr_von": "1995",
+            "baujahr_bis": "2006",
+            "motorvarianten": [
+                ""
+            ],
+            "bemerkung": "Vorne rechts, manuell, 2-t Pritsche/Fahrgestell; passend zu OE 9017201546."
+        },
+        {
+            "marke": "MERCEDES-BENZ",
+            "modell": "Sprinter 3-t Kasten (W903)",
+            "baujahr_von": "1995",
+            "baujahr_bis": "2006",
+            "motorvarianten": [
+                ""
+            ],
+            "bemerkung": "Vorne rechts, manuell, 3-t Kasten; passend zu OE 9017201546."
+        },
+        {
+            "marke": "MERCEDES-BENZ",
+            "modell": "Sprinter 3-t Pritsche/Fahrgestell (W903)",
+            "baujahr_von": "1995",
+            "baujahr_bis": "2006",
+            "motorvarianten": [
+                ""
+            ],
+            "bemerkung": "Vorne rechts, manuell, 3-t Pritsche/Fahrgestell; passend zu OE 9017201546."
+        },
+        {
+            "marke": "MERCEDES-BENZ",
+            "modell": "Sprinter 3-t Bus (W903)",
+            "baujahr_von": "1995",
+            "baujahr_bis": "2006",
+            "motorvarianten": [
+                ""
+            ],
+            "bemerkung": "Vorne rechts, manuell, 3-t Bus; passend zu OE 9017201546."
+        },
+        {
+            "marke": "MERCEDES-BENZ",
+            "modell": "Sprinter 4-t Pritsche/Fahrgestell (W904)",
+            "baujahr_von": "1996",
+            "baujahr_bis": "2006",
+            "motorvarianten": [
+                ""
+            ],
+            "bemerkung": "Vorne rechts, manuell, 4-t Pritsche/Fahrgestell; passend zu OE 9017201546."
+        },
+        {
+            "marke": "MERCEDES-BENZ",
+            "modell": "Sprinter 4-t Kasten (W904)",
+            "baujahr_von": "1996",
+            "baujahr_bis": "2006",
+            "motorvarianten": [
+                ""
+            ],
+            "bemerkung": "Vorne rechts, manuell, 4-t Kasten; passend zu OE 9017201546."
+        },
+        {
+            "marke": "MERCEDES-BENZ",
+            "modell": "Sprinter 5-t Pritsche/Fahrgestell (W904/W905)",
+            "baujahr_von": "1996",
+            "baujahr_bis": "2006",
+            "motorvarianten": [
+                ""
+            ],
+            "bemerkung": "Vorne rechts, manuell, 5-t Pritsche/Fahrgestell; passend zu OE 9017201546."
+        },
+        {
+            "marke": "MERCEDES-BENZ",
+            "modell": "Sprinter 5-t Kasten/Bus (W904/W905)",
+            "baujahr_von": "1996",
+            "baujahr_bis": "2006",
+            "motorvarianten": [
+                ""
+            ],
+            "bemerkung": "Vorne rechts, manuell, 5-t Kasten und Bus; passend zu OE 9017201546."
+        },
+        {
+            "marke": "MERCEDES-BENZ",
+            "modell": "Sprinter Classic 4–6-t Bus (W909, auf Basis W90x)",
+            "baujahr_von": "2013",
+            "baujahr_bis": "2025",
+            "motorvarianten": [
+                ""
+            ],
+            "bemerkung": "Vorne rechts, manuell; weiterhin mit Türplattform W901–W905, OE 9017201546."
+        }
+    ]
+}
+[2025-11-23 15:49:15] Processing of Item ID=6476, Name='Mercedes Sprinter W901-W905 Fensterheber rechts -5623-'
+[2025-11-23 15:49:15] ✅ successfully connected to MySQL
+[2025-11-23 15:49:16] ✅ Updated product 6476, chatgpt_state=1
+[2025-11-23 15:49:16] 🔒 The connection is closed
+[2025-11-23 15:49:26] 📤 ChatGPT's response to 'Mercedes Sprinter W901-W905 Fensterheber rechts -5682-':
+{
+    "titel": "Fensterheber vorne rechts Mercedes Sprinter W901-W905 -5682-",
+    "SEO": "Mercedes Sprinter W901-W905 Fensterheber vorne rechts elektrisch ohne Motor -5682-",
+    "Kurzbeschreibung": "Elektrischer Fensterheber vorne rechts für Mercedes Sprinter W901-W905, ohne Motor.",
+    "Verkaufstext": "Hochwertiger Fensterheber für die rechte vordere Tür Ihres Mercedes Sprinter W901-W905. Elektrischer Einschienenseilzugheber, Lieferung ohne Elektromotor – ideal als langlebiger Ersatz bei defektem Mechanismus. Passgenaue Ausführung nach OE-Vorgabe, bitte vorhandenes Teil und OE-Nummern vor Bestellung abgleichen.",
+    "OE-Nummer": [],
+    "Quelle": [
+        "https://www.autodoc.de/autoteile/fensterheber-12791/mercedes-benz/sprinter"
+    ],
+    "kompatibilität": [
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "Sprinter 2-t Kasten (W901)",
+            "baujahr_von": "1995",
+            "baujahr_bis": "2006",
+            "motorvarianten": [
+                ""
+            ],
+            "bemerkung": "Fensterheber vorne rechts, elektrisch, ohne Motor"
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "Sprinter 2-t Pritsche/Fahrgestell (W901)",
+            "baujahr_von": "1995",
+            "baujahr_bis": "2006",
+            "motorvarianten": [
+                ""
+            ],
+            "bemerkung": "Fensterheber vorne rechts, elektrisch, ohne Motor"
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "Sprinter 3-t Kasten (W902/W903)",
+            "baujahr_von": "1995",
+            "baujahr_bis": "2006",
+            "motorvarianten": [
+                ""
+            ],
+            "bemerkung": "Fensterheber vorne rechts, elektrisch, ohne Motor"
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "Sprinter 3-t Pritsche/Fahrgestell (W902/W903)",
+            "baujahr_von": "1995",
+            "baujahr_bis": "2006",
+            "motorvarianten": [
+                ""
+            ],
+            "bemerkung": "Fensterheber vorne rechts, elektrisch, ohne Motor"
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "Sprinter 4-t Kasten/Pritsche (W904)",
+            "baujahr_von": "1995",
+            "baujahr_bis": "2006",
+            "motorvarianten": [
+                ""
+            ],
+            "bemerkung": "Fensterheber vorne rechts, elektrisch, ohne Motor"
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "Sprinter 5-t Kasten/Pritsche (W905)",
+            "baujahr_von": "1995",
+            "baujahr_bis": "2006",
+            "motorvarianten": [
+                ""
+            ],
+            "bemerkung": "Fensterheber vorne rechts, elektrisch, ohne Motor"
+        },
+        {
+            "marke": "Mercedes-Benz",
+            "modell": "Sprinter Bus (W902/W903)",
+            "baujahr_von": "1995",
+            "baujahr_bis": "2006",
+            "motorvarianten": [
+                ""
+            ],
+            "bemerkung": "Fensterheber vorne rechts, elektrisch, ohne Motor"
+        }
+    ]
+}
+[2025-11-23 15:49:26] Processing of Item ID=6475, Name='Mercedes Sprinter W901-W905 Fensterheber rechts -5682-'
+[2025-11-23 15:49:27] ✅ successfully connected to MySQL
+[2025-11-23 15:49:27] ✅ Updated product 6475, chatgpt_state=1
+[2025-11-23 15:49:27] 🔒 The connection is closed
+[2025-11-23 20:46:28] Start of goods processing
+[2025-11-23 20:46:28] 🔄 Running in BATCH mode (limit=10).
+[2025-11-23 20:46:28] ℹ️ No parameters provided — using default limit=3
+[2025-11-23 20:46:29] ✅ successfully connected to MySQL
+[2025-11-23 20:46:29] Received 3 items for processing (chatgpt_state IS NULL)
+[2025-11-23 20:46:29] 📝 Product names:
+[2025-11-23 20:46:29] ✅ Prompt successfully loaded from the database
+[2025-11-23 20:46:29] 🔒 The connection is closed
+[2025-11-23 20:46:29] ✅ Created local input file: batch_files\batch_input_1763923589.jsonl with 3 requests.
+[2025-11-23 20:46:29] ⬆️ Uploading batch input file...
+[2025-11-23 20:46:33] ✅ File uploaded. ID: file-QNPTE9xfXCm15bcTdigs8G
+[2025-11-23 20:46:33] 🚀 Creating batch job...
+[2025-11-23 20:46:35] 🔥 Batch job created. ID: batch_6923568af7c4819080db4e846784fc1b, Status: validating
+[2025-11-23 20:46:35] ✨ Batch job started. You must run a separate script to check status and retrieve results using Batch ID: batch_6923568af7c4819080db4e846784fc1b
+[2025-11-23 20:49:21] Starting Batch Monitor...
+[2025-11-23 20:58:31] Starting Batch Monitor...
+[2025-11-23 20:58:33] Current Batch Status for batch_6923568af7c4819080db4e846784fc1b: completed
+[2025-11-23 20:58:34] ✅ successfully connected to MySQL
+[2025-11-23 20:58:34] 💥 Fatal error during batch processing: ContextController.parse_jsonl_results() takes 1 positional argument but 2 were given
+[2025-11-23 20:58:34] 🔒 The connection is closed
+[2025-11-23 21:00:22] Starting Batch Monitor...
+[2025-11-23 21:00:24] Current Batch Status for batch_6923568af7c4819080db4e846784fc1b: completed
+[2025-11-23 21:00:24] ✅ successfully connected to MySQL
+[2025-11-23 21:00:24] Received 1 items for processing (chatgpt_state IS NULL)
+[2025-11-23 21:00:24] 📝 Product names:
+[2025-11-23 21:00:24] Processing of Item ID=6474, Name='Fiat Ducato Peugeot Citroen Fensterheber Motor-1276-'
+[2025-11-23 21:00:25] ✅ successfully connected to MySQL
+[2025-11-23 21:00:25] ✅ Updated product 6474, chatgpt_state=1
+[2025-11-23 21:00:25] 🔒 The connection is closed
+[2025-11-23 21:00:25] ❌ SQL Execution Error: (0, '')
+[2025-11-23 21:00:25] ❌ Error reading goods: (0, '')
+[2025-11-23 21:00:25] ❌ Product ID=6473 not found for updating after batch.
+[2025-11-23 21:00:25] ❌ SQL Execution Error: (0, '')
+[2025-11-23 21:00:25] ❌ Error reading goods: (0, '')
+[2025-11-23 21:00:25] ❌ Product ID=6472 not found for updating after batch.
+[2025-11-23 21:00:25] ❌ SQL Commit Error: (0, '')
+[2025-11-23 21:00:25] 💥 Fatal error during batch processing: (0, '')
+[2025-11-23 21:09:48] Starting Batch Monitor...
+[2025-11-23 21:09:49] Current Batch Status for batch_6923568af7c4819080db4e846784fc1b: completed
+[2025-11-23 21:09:50] ✅ successfully connected to MySQL
+[2025-11-23 21:09:50] Received 1 items for processing (chatgpt_state IS NULL)
+[2025-11-23 21:09:50] 📝 Product names:
+[2025-11-23 21:09:50] Processing of Item ID=6474, Name='Fiat Ducato Peugeot Citroen Fensterheber Motor-1276-'
+[2025-11-23 21:09:51] ✅ successfully connected to MySQL
+[2025-11-23 21:09:51] ✅ Updated product 6474, chatgpt_state=1
+[2025-11-23 21:09:51] 🔒 The connection is closed
+[2025-11-23 21:09:51] ❌ SQL Execution Error: (0, '')
+[2025-11-23 21:09:51] ❌ Error reading goods: (0, '')
+[2025-11-23 21:09:51] ❌ Product ID=6473 not found.
+[2025-11-23 21:09:51] ❌ SQL Execution Error: (0, '')
+[2025-11-23 21:09:51] ❌ Error reading goods: (0, '')
+[2025-11-23 21:09:51] ❌ Product ID=6472 not found.
+[2025-11-23 21:09:51] 🎉 Batch results processing finished. Updated 1 products.
+[2025-11-23 21:09:51] Batch processing finished and database updated.

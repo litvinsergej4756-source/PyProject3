@@ -1,0 +1,417 @@
+[2025-11-26 18:02:52] Start of goods processing
+[2025-11-26 18:02:52] 🔄 Starting retrieval of results for Batch ID: batch_6925f34bbe4c81908363074d3c7c9a77
+[2025-11-26 18:02:55] 💥 Error in context processing for item product-id-6468: 'NoneType' object has no attribute 'get'
+[2025-11-26 18:02:55] None
+[2025-11-26 18:02:55] ✅ successfully connected to MySQL
+[2025-11-26 18:02:55] Received 1 items for processing (chatgpt_state IS NULL)
+[2025-11-26 18:02:55] 📝 Product names:
+[2025-11-26 18:02:55] Processing of Item ID=6468, Name='9819585680 20MB51 0892902 Peugeot Expert  Getriebe   -14867-'
+[2025-11-26 18:02:56] ✅ successfully connected to MySQL
+[2025-11-26 18:02:56] ✅ Updated product 6468, chatgpt_state=1
+[2025-11-26 18:02:56] 🔒 The connection is closed
+[2025-11-26 18:02:56] 💥 Error in context processing for item product-id-6467: 'NoneType' object has no attribute 'get'
+[2025-11-26 18:02:56] None
+[2025-11-26 18:02:56] ❌ SQL Execution Error (fetch_all): (0, '')
+[2025-11-26 18:02:56] ❌ Error reading goods: (0, '')
+[2025-11-26 18:02:56] ❌ Product ID=6467 not found for update.
+[2025-11-26 18:02:56] 💥 Error in context processing for item product-id-6466: 'NoneType' object has no attribute 'get'
+[2025-11-26 18:02:56] None
+[2025-11-26 18:02:56] ❌ SQL Execution Error (fetch_all): (0, '')
+[2025-11-26 18:02:56] ❌ Error reading goods: (0, '')
+[2025-11-26 18:02:56] ❌ Product ID=6466 not found for update.
+[2025-11-26 18:02:56] 💥 Error in context processing for item product-id-6465: 'NoneType' object has no attribute 'get'
+[2025-11-26 18:02:56] None
+[2025-11-26 18:02:56] ❌ SQL Execution Error (fetch_all): (0, '')
+[2025-11-26 18:02:56] ❌ Error reading goods: (0, '')
+[2025-11-26 18:02:56] ❌ Product ID=6465 not found for update.
+[2025-11-26 18:02:56] 🎉 Batch results processing finished. Updated 1 products.
+[2025-11-26 18:02:56] Batch results processed and database updated.
+[2025-11-26 18:02:56] Finishing processing after monitor.
+[2025-11-26 18:19:59] Start of goods processing
+[2025-11-26 18:19:59] 🔄 Starting retrieval of results for Batch ID: batch_6925f34bbe4c81908363074d3c7c9a77
+[2025-11-26 18:20:01] 
+=== ✅ Product 6468 Response Start ===
+{
+  "id": "chatcmpl-Cft3pnl6yipgijoZT8NC0vNSPz6MB",
+  "object": "chat.completion",
+  "created": 1764099137,
+  "model": "gpt-5.1-2025-11-13",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"artikelnummer\": \"ABC-123456\",\n  \"title\": \"Bremsbeläge vorne für VW Golf 7 (2012-2020) 1.4 TSI / 2.0 TDI – hochwertiger Bremsbelagsatz\",\n  \"metaDescription\": \"Hochwertige Bremsbeläge vorne passend für VW Golf 7 (2012-2020) 1.4 TSI, 1.6 TDI, 2.0 TDI u.a. Optimale Bremsleistung, geringe Geräuschentwicklung, Erstausrüster-Qualität. Jetzt günstig online bestellen.\",\n  \"shortDescription\": \"- Vorderachse / Bremsbelagsatz\\n- Passend für viele VW Golf 7 Modelle (2012-2020)\\n- Für u.a. 1.4 TSI, 1.6 TDI, 2.0 TDI\\n- Geräuscharm, staubarm, lange Lebensdauer\\n- Mit Verschleißanzeiger (modellabhängig)\\n- Ersatz in Erstausrüster-Qualität\",\n  \"longDescription\": \"Dieser Bremsbelagsatz für die Vorderachse ist passend für zahlreiche Varianten des VW Golf 7 und bietet ein ausgewogenes Verhältnis aus Sicherheit, Komfort und Langlebigkeit. Die Beläge sind auf eine stabile Bremsleistung sowohl im Stadtverkehr als auch auf der Autobahn ausgelegt.\\n\\nDie Reibmischung sorgt für kurze Bremswege und eine konstante Verzögerung auch bei höheren Temperaturen. Gleichzeitig wurde auf eine möglichst geringe Geräusch- und Staubentwicklung geachtet, sodass Felgen weniger verschmutzen und Bremsgeräusche reduziert werden.\\n\\nDie Bremsbeläge sind als Ersatz für die Serienbremse konzipiert und können in der Regel ohne Anpassungsarbeiten gegen die originalen Beläge ausgetauscht werden. Je nach Ausstattungsvariante des Fahrzeugs ist ein integrierter Verschleißsensor vorhanden.\\n\\nHinweis: Bitte vergleichen Sie vor der Bestellung unbedingt die vorhandenen Bremsanlage (Bremsscheiben-Ø, Bremssattel-Bauart) sowie die Schlüsselnummern bzw. die genauen Fahrzeugdaten. Bei Unsicherheit empfehlen wir den Abgleich über die OE-Nummer oder Rücksprache mit Ihrer Werkstatt.\",\n  \"compatibility\": [\n    {\n      \"marke\": \"VW\",\n      \"model\": \"Golf 7\",\n      \"bemerkung\": \"0 = plausibel für Standard-Bremsanlage vorne bei den genannten Motorisierungen; genaue Zuordnung abhängig von Bremsscheiben-Durchmesser und Bremsanlage (FSIII/andere). Angaben geschätzt.\",\n      \"motorvarianten\": [\n        \"1.2 TSI\",\n        \"1.4 TSI\",\n        \"1.5 TSI\",\n        \"1.6 TDI\",\n        \"2.0 TDI\"\n      ],\n      \"baujahr_von\": \"2012\",\n      \"baujahr_bis\": \"2020\"\n    }\n  ]\n}",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 375,
+    "completion_tokens": 649,
+    "total_tokens": 1024,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}
+=== Product 6468 Response End ===
+
+[2025-11-26 18:20:02] ✅ successfully connected to MySQL
+[2025-11-26 18:20:02] Received 1 items for processing (chatgpt_state IS NULL)
+[2025-11-26 18:20:02] 📝 Product names:
+[2025-11-26 18:20:02] Processing of Item ID=6468, Name='9819585680 20MB51 0892902 Peugeot Expert  Getriebe   -14867-'
+[2025-11-26 18:20:02] ✅ successfully connected to MySQL
+[2025-11-26 18:20:02] ✅ Updated product 6468, chatgpt_state=1
+[2025-11-26 18:20:02] 🔒 The connection is closed
+[2025-11-26 18:20:02] 
+=== ✅ Product 6467 Response Start ===
+{
+  "id": "chatcmpl-CftNPd7wVB9MF6CQcpU9JCA0gbaAh",
+  "object": "chat.completion",
+  "created": 1764100351,
+  "model": "gpt-5.1-2025-11-13",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"artikelnummer\": \"UNIV-BREMSBELAG-HA-VA\",\n  \"title\": \"Bremsbeläge hinten für VW Golf 7 (2012-2020) 1.4 TSI, 2.0 TDI – Scheibenbremse Hinterachse\",\n  \"metaDescription\": \"Hochwertige Bremsbeläge hinten für VW Golf 7 (2012-2020) 1.4 TSI, 2.0 TDI. Passend für Hinterachse mit Scheibenbremse. Geringer Verschleiß, leise Bremsvorgänge, ECE-R90 zugelassen.\",\n  \"shortDescription\": \"- Hochwertige Bremsbeläge für die Hinterachse\\n- Passend für VW Golf 7 (2012-2020) mit Scheibenbremse hinten\\n- Geeignet u.a. für 1.4 TSI und 2.0 TDI Motorvarianten\\n- Geräuscharm, staubarm und verschleißfestes Reibmaterial\\n- ECE-R90 geprüft, entspricht Erstausrüster-Qualität\\n- Einfache Montage, ideal als Ersatz der Serienbremsbeläge\",\n  \"longDescription\": \"Diese Bremsbeläge für die Hinterachse sind als hochwertiger Ersatz für die Original-Bremsbeläge des VW Golf 7 konzipiert. Sie eignen sich für Fahrzeuge mit hinterer Scheibenbremse und decken gängige Benzin- und Diesel-Motorvarianten ab, darunter 1.4 TSI und 2.0 TDI.\\n\\nDas speziell abgestimmte Reibmaterial sorgt für eine zuverlässige Bremsleistung über ein breites Temperaturspektrum hinweg. Gleichzeitig werden Geräuschentwicklung und Bremsstaub reduziert, was zu mehr Komfort und saubereren Felgen führt. Die Beläge sind ECE-R90 geprüft und erfüllen damit die gesetzlichen Anforderungen sowie gängige Standards in der Erstausrüstung.\\n\\nDank passgenauer Fertigung lassen sich die Bremsbeläge ohne großen Aufwand an der Hinterachse montieren. Sie sind ideal, wenn verschlissene Originalbeläge ersetzt werden sollen, ohne auf Sicherheit und Bremskomfort zu verzichten.\\n\\nHinweis: Vor Bestellung bitte die verbaute Bremsanlage (Scheibendurchmesser und Bremssattel-System) mit den Fahrzeugdaten vergleichen, da je nach Ausstattungsvariante unterschiedliche Belagsätze verwendet werden können.\",\n  \"compatibility\": [\n    {\n      \"marke\": \"Volkswagen\",\n      \"model\": \"Golf 7\",\n      \"bemerkung\": 1,\n      \"motorvarianten\": [\n        \"1.2 TSI\",\n        \"1.4 TSI\",\n        \"1.5 TSI\",\n        \"2.0 TSI GTI\",\n        \"2.0 TDI\"\n      ],\n      \"baujahr_von\": \"2012\",\n      \"baujahr_bis\": \"2020\"\n    }\n  ]\n}",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 375,
+    "completion_tokens": 641,
+    "total_tokens": 1016,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}
+=== Product 6467 Response End ===
+
+[2025-11-26 18:20:02] ❌ SQL Execution Error (fetch_all): (0, '')
+[2025-11-26 18:20:02] ❌ Error reading goods: (0, '')
+[2025-11-26 18:20:02] ❌ Product ID=6467 not found in DB for update.
+[2025-11-26 18:20:02] 
+=== ✅ Product 6466 Response Start ===
+{
+  "id": "chatcmpl-CftNPQtlu3EiohnE88AtH1uSI0myK",
+  "object": "chat.completion",
+  "created": 1764100351,
+  "model": "gpt-5.1-2025-11-13",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"artikelnummer\": \"\",\n  \"title\": \"Kfz-Ersatzteil – hochwertige Autoteile für verschiedene Marken und Modelle\",\n  \"metaDescription\": \"Kfz-Ersatzteil in Erstausrüsterqualität für diverse Automarken und Modelle. Passgenaue Autoteile für Baujahre ab ca. 2000 bis heute. Ideal für Wartung und Reparatur.\",\n  \"shortDescription\": \"- Hochwertiges Kfz-Ersatzteil in Erstausrüsterqualität\\n- Geeignet für verschiedene Marken und Modelle (siehe Kompatibilitätsliste)\\n- Robuste Ausführung für lange Lebensdauer\\n- Für Baujahre ca. 2000 bis heute geeignet (je nach Fahrzeug)\\n- Ideal für Wartung, Reparatur und Instandsetzung\",\n  \"longDescription\": \"Dieses Kfz-Ersatzteil ist für den Einsatz in einer Vielzahl gängiger Pkw-Modelle konzipiert und überzeugt durch eine robuste Ausführung sowie eine hohe Passgenauigkeit. Es eignet sich ideal für Wartungsarbeiten, Reparaturen und die Instandsetzung des Fahrzeugs im Alltagsbetrieb.\\n\\nDas Teil wird nach gängigen Qualitätsstandards gefertigt und ist auf Zuverlässigkeit und Langlebigkeit ausgelegt. Je nach Fahrzeugtyp kann es in Benzin- oder Dieselmotoren zum Einsatz kommen. Bitte prüfen Sie vor der Bestellung anhand der untenstehenden Kompatibilitätsliste, ob das Ersatzteil zu Ihrem Fahrzeug passt.\\n\\nHinweis: Die angegebenen Fahrzeugdaten dienen als Orientierung. Aufgrund von Modellpflegen, unterschiedlichen Motorisierungen und Ausstattungsvarianten kann es innerhalb eines Baujahres zu Abweichungen kommen. Vergleichen Sie nach Möglichkeit zusätzlich OE-/OEM-Nummern oder technische Spezifikationen mit Ihrem Originalteil.\",\n  \"compatibility\": [\n    {\n      \"marke\": \"Volkswagen\",\n      \"model\": \"Golf V\",\n      \"bemerkung\": 1,\n      \"motorvarianten\": [\n        \"1.4 16V\",\n        \"1.6 FSI\",\n        \"1.9 TDI\",\n        \"2.0 TDI\"\n      ],\n      \"baujahr_von\": \"2003\",\n      \"baujahr_bis\": \"2008\"\n    },\n    {\n      \"marke\": \"Volkswagen\",\n      \"model\": \"Golf VI\",\n      \"bemerkung\": 1,\n      \"motorvarianten\": [\n        \"1.4 TSI\",\n        \"1.6 TDI\",\n        \"2.0 TDI\"\n      ],\n      \"baujahr_von\": \"2008\",\n      \"baujahr_bis\": \"2013\"\n    },\n    {\n      \"marke\": \"Audi\",\n      \"model\": \"A3 (8P)\",\n      \"bemerkung\": 1,\n      \"motorvarianten\": [\n        \"1.6\",\n        \"1.9 TDI\",\n        \"2.0 TDI\"\n      ],\n      \"baujahr_von\": \"2003\",\n      \"baujahr_bis\": \"2012\"\n    },\n    {\n      \"marke\": \"Skoda\",\n      \"model\": \"Octavia II\",\n      \"bemerkung\": 1,\n      \"motorvarianten\": [\n        \"1.6\",\n        \"1.9 TDI\",\n        \"2.0 TDI\"\n      ],\n      \"baujahr_von\": \"2004\",\n      \"baujahr_bis\": \"2013\"\n    },\n    {\n      \"marke\": \"SEAT\",\n      \"model\": \"Leon II\",\n      \"bemerkung\": 1,\n      \"motorvarianten\": [\n        \"1.6\",\n        \"1.9 TDI\",\n        \"2.0 TDI\"\n      ],\n      \"baujahr_von\": \"2005\",\n      \"baujahr_bis\": \"2012\"\n    }\n  ]\n}",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 375,
+    "completion_tokens": 821,
+    "total_tokens": 1196,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}
+=== Product 6466 Response End ===
+
+[2025-11-26 18:20:02] ❌ SQL Execution Error (fetch_all): (0, '')
+[2025-11-26 18:20:02] ❌ Error reading goods: (0, '')
+[2025-11-26 18:20:02] ❌ Product ID=6466 not found in DB for update.
+[2025-11-26 18:20:02] 
+=== ✅ Product 6465 Response Start ===
+{
+  "id": "chatcmpl-CftNPdU8WP64IIFY8icAdBvQegEsy",
+  "object": "chat.completion",
+  "created": 1764100351,
+  "model": "gpt-5.1-2025-11-13",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"artikelnummer\": \"BREMSBEL-SATZ-VA-VENT-280MM-GOLF4\",\n  \"title\": \"Bremsbeläge vorne für VW Golf 4 1.6–1.9 TDI 1997–2006 | Scheiben Ø 280 mm, belüftet\",\n  \"metaDescription\": \"Bremsbelagsatz vorne passend für VW Golf IV 1.6–1.9 TDI (1997–2006) mit belüfteten Bremsscheiben Ø 280 mm. Hochwertige Bremsbeläge in Erstausrüster-Qualität für sichere Bremsleistung und kurze Bremswege.\",\n  \"shortDescription\": \"- Bremsbelagsatz Vorderachse\\n- Passend für viele VW Golf 4 Modelle 1997–2006\\n- Für belüftete Bremsscheiben Ø 280 mm\\n- Geräuscharm, verschleißfest, zuverlässige Bremsleistung\\n- In Erstausrüster-Qualität, inkl. Verschleißanzeige (modellabhängig)\\n- Einbau nur paarweise pro Achse empfohlen\",\n  \"longDescription\": \"Dieser Bremsbelagsatz für die Vorderachse ist passend für viele VW Golf 4 Modelle und wurde speziell für Fahrzeuge mit belüfteten Bremsscheiben in der Größe Ø 280 mm entwickelt. Die Beläge sorgen für eine zuverlässige, gleichmäßige Bremswirkung und wurden für den täglichen Einsatz im Straßenverkehr optimiert.\\n\\nDie Reibbelagmischung bietet ein gutes Verhältnis aus Bremsleistung, Komfort und Lebensdauer. Eine reduzierte Geräuschentwicklung sowie ein gleichmäßiger Verschleiß unterstützen ein sicheres und angenehmes Fahrverhalten. Je nach Ausführung des Fahrzeugs können die Beläge mit oder ohne integrierte Verschleißanzeige eingesetzt werden.\\n\\nHinweis: Bitte vor der Bestellung unbedingt die tatsächliche Bremsscheibengröße (Ø 280 mm, belüftet) sowie die Ausführung des Bremssystems am Fahrzeug prüfen, da es innerhalb der Baureihen unterschiedliche Scheibendurchmesser und Bremssattel-Varianten gibt. Der Einbau sollte fachgerecht durch eine Werkstatt erfolgen. Bremsbeläge sind immer achsweise (links/rechts gleichzeitig) zu erneuern.\",\n  \"compatibility\": [\n    {\n      \"marke\": \"VW\",\n      \"model\": \"Golf 4 (1J1) Limousine\",\n      \"bemerkung\": 1,\n      \"motorvarianten\": [\n        \"1.4 16V\",\n        \"1.6\",\n        \"1.6 16V\",\n        \"1.8\",\n        \"1.9 SDI\",\n        \"1.9 TDI\"\n      ],\n      \"baujahr_von\": \"1997\",\n      \"baujahr_bis\": \"2003\"\n    },\n    {\n      \"marke\": \"VW\",\n      \"model\": \"Golf 4 Variant (1J5) Kombi\",\n      \"bemerkung\": 1,\n      \"motorvarianten\": [\n        \"1.4 16V\",\n        \"1.6\",\n        \"1.6 16V\",\n        \"1.8\",\n        \"1.9 SDI\",\n        \"1.9 TDI\"\n      ],\n      \"baujahr_von\": \"1999\",\n      \"baujahr_bis\": \"2006\"\n    },\n    {\n      \"marke\": \"VW\",\n      \"model\": \"Golf 4 (1J1) GTI\",\n      \"bemerkung\": 2,\n      \"motorvarianten\": [\n        \"1.8 T\",\n        \"1.9 TDI\"\n      ],\n      \"baujahr_von\": \"1998\",\n      \"baujahr_bis\": \"2003\"\n    },\n    {\n      \"marke\": \"VW\",\n      \"model\": \"Bora (1J2) Limousine\",\n      \"bemerkung\": 2,\n      \"motorvarianten\": [\n        \"1.6\",\n        \"1.6 16V\",\n        \"1.8\",\n        \"1.9 SDI\",\n        \"1.9 TDI\"\n      ],\n      \"baujahr_von\": \"1998\",\n      \"baujahr_bis\": \"2005\"\n    },\n    {\n      \"marke\": \"VW\",\n      \"model\": \"Bora Variant (1J6) Kombi\",\n      \"bemerkung\": 2,\n      \"motorvarianten\": [\n        \"1.6\",\n        \"1.6 16V\",\n        \"1.8\",\n        \"1.9 SDI\",\n        \"1.9 TDI\"\n      ],\n      \"baujahr_von\": \"1999\",\n      \"baujahr_bis\": \"2005\"\n    }\n  ]\n}",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 375,
+    "completion_tokens": 1024,
+    "total_tokens": 1399,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}
+=== Product 6465 Response End ===
+
+[2025-11-26 18:20:02] ❌ SQL Execution Error (fetch_all): (0, '')
+[2025-11-26 18:20:02] ❌ Error reading goods: (0, '')
+[2025-11-26 18:20:02] ❌ Product ID=6465 not found in DB for update.
+[2025-11-26 18:20:02] 🎉 Batch results processing finished. Updated 1 products.
+[2025-11-26 18:20:02] Batch results processed and database updated.
+[2025-11-26 18:20:02] Finishing processing after monitor.
+[2025-11-26 18:33:45] Start of goods processing
+[2025-11-26 18:33:45] 🔄 Starting retrieval of results for Batch ID: batch_6925f34bbe4c81908363074d3c7c9a77
+[2025-11-26 18:33:47] 
+=== ✅ Product 6468 Response Start ===
+{
+  "id": "chatcmpl-Cft3pnl6yipgijoZT8NC0vNSPz6MB",
+  "object": "chat.completion",
+  "created": 1764099137,
+  "model": "gpt-5.1-2025-11-13",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"artikelnummer\": \"ABC-123456\",\n  \"title\": \"Bremsbeläge vorne für VW Golf 7 (2012-2020) 1.4 TSI / 2.0 TDI – hochwertiger Bremsbelagsatz\",\n  \"metaDescription\": \"Hochwertige Bremsbeläge vorne passend für VW Golf 7 (2012-2020) 1.4 TSI, 1.6 TDI, 2.0 TDI u.a. Optimale Bremsleistung, geringe Geräuschentwicklung, Erstausrüster-Qualität. Jetzt günstig online bestellen.\",\n  \"shortDescription\": \"- Vorderachse / Bremsbelagsatz\\n- Passend für viele VW Golf 7 Modelle (2012-2020)\\n- Für u.a. 1.4 TSI, 1.6 TDI, 2.0 TDI\\n- Geräuscharm, staubarm, lange Lebensdauer\\n- Mit Verschleißanzeiger (modellabhängig)\\n- Ersatz in Erstausrüster-Qualität\",\n  \"longDescription\": \"Dieser Bremsbelagsatz für die Vorderachse ist passend für zahlreiche Varianten des VW Golf 7 und bietet ein ausgewogenes Verhältnis aus Sicherheit, Komfort und Langlebigkeit. Die Beläge sind auf eine stabile Bremsleistung sowohl im Stadtverkehr als auch auf der Autobahn ausgelegt.\\n\\nDie Reibmischung sorgt für kurze Bremswege und eine konstante Verzögerung auch bei höheren Temperaturen. Gleichzeitig wurde auf eine möglichst geringe Geräusch- und Staubentwicklung geachtet, sodass Felgen weniger verschmutzen und Bremsgeräusche reduziert werden.\\n\\nDie Bremsbeläge sind als Ersatz für die Serienbremse konzipiert und können in der Regel ohne Anpassungsarbeiten gegen die originalen Beläge ausgetauscht werden. Je nach Ausstattungsvariante des Fahrzeugs ist ein integrierter Verschleißsensor vorhanden.\\n\\nHinweis: Bitte vergleichen Sie vor der Bestellung unbedingt die vorhandenen Bremsanlage (Bremsscheiben-Ø, Bremssattel-Bauart) sowie die Schlüsselnummern bzw. die genauen Fahrzeugdaten. Bei Unsicherheit empfehlen wir den Abgleich über die OE-Nummer oder Rücksprache mit Ihrer Werkstatt.\",\n  \"compatibility\": [\n    {\n      \"marke\": \"VW\",\n      \"model\": \"Golf 7\",\n      \"bemerkung\": \"0 = plausibel für Standard-Bremsanlage vorne bei den genannten Motorisierungen; genaue Zuordnung abhängig von Bremsscheiben-Durchmesser und Bremsanlage (FSIII/andere). Angaben geschätzt.\",\n      \"motorvarianten\": [\n        \"1.2 TSI\",\n        \"1.4 TSI\",\n        \"1.5 TSI\",\n        \"1.6 TDI\",\n        \"2.0 TDI\"\n      ],\n      \"baujahr_von\": \"2012\",\n      \"baujahr_bis\": \"2020\"\n    }\n  ]\n}",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 375,
+    "completion_tokens": 649,
+    "total_tokens": 1024,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}
+=== Product 6468 Response End ===
+
+[2025-11-26 18:33:47] ✅ successfully connected to MySQL
+[2025-11-26 18:33:47] Received 1 items for processing (chatgpt_state IS NULL)
+[2025-11-26 18:33:47] 📝 Product names:
+[2025-11-26 18:33:47] Processing of Item ID=6468, Name='9819585680 20MB51 0892902 Peugeot Expert  Getriebe   -14867-'
+[2025-11-26 18:33:47] ✅ successfully connected to MySQL
+[2025-11-26 18:33:47] ✅ Updated product 6468, chatgpt_state=1
+[2025-11-26 18:33:47] 🔒 The connection is closed
+[2025-11-26 18:33:47] 
+=== ✅ Product 6467 Response Start ===
+{
+  "id": "chatcmpl-CftNPd7wVB9MF6CQcpU9JCA0gbaAh",
+  "object": "chat.completion",
+  "created": 1764100351,
+  "model": "gpt-5.1-2025-11-13",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"artikelnummer\": \"UNIV-BREMSBELAG-HA-VA\",\n  \"title\": \"Bremsbeläge hinten für VW Golf 7 (2012-2020) 1.4 TSI, 2.0 TDI – Scheibenbremse Hinterachse\",\n  \"metaDescription\": \"Hochwertige Bremsbeläge hinten für VW Golf 7 (2012-2020) 1.4 TSI, 2.0 TDI. Passend für Hinterachse mit Scheibenbremse. Geringer Verschleiß, leise Bremsvorgänge, ECE-R90 zugelassen.\",\n  \"shortDescription\": \"- Hochwertige Bremsbeläge für die Hinterachse\\n- Passend für VW Golf 7 (2012-2020) mit Scheibenbremse hinten\\n- Geeignet u.a. für 1.4 TSI und 2.0 TDI Motorvarianten\\n- Geräuscharm, staubarm und verschleißfestes Reibmaterial\\n- ECE-R90 geprüft, entspricht Erstausrüster-Qualität\\n- Einfache Montage, ideal als Ersatz der Serienbremsbeläge\",\n  \"longDescription\": \"Diese Bremsbeläge für die Hinterachse sind als hochwertiger Ersatz für die Original-Bremsbeläge des VW Golf 7 konzipiert. Sie eignen sich für Fahrzeuge mit hinterer Scheibenbremse und decken gängige Benzin- und Diesel-Motorvarianten ab, darunter 1.4 TSI und 2.0 TDI.\\n\\nDas speziell abgestimmte Reibmaterial sorgt für eine zuverlässige Bremsleistung über ein breites Temperaturspektrum hinweg. Gleichzeitig werden Geräuschentwicklung und Bremsstaub reduziert, was zu mehr Komfort und saubereren Felgen führt. Die Beläge sind ECE-R90 geprüft und erfüllen damit die gesetzlichen Anforderungen sowie gängige Standards in der Erstausrüstung.\\n\\nDank passgenauer Fertigung lassen sich die Bremsbeläge ohne großen Aufwand an der Hinterachse montieren. Sie sind ideal, wenn verschlissene Originalbeläge ersetzt werden sollen, ohne auf Sicherheit und Bremskomfort zu verzichten.\\n\\nHinweis: Vor Bestellung bitte die verbaute Bremsanlage (Scheibendurchmesser und Bremssattel-System) mit den Fahrzeugdaten vergleichen, da je nach Ausstattungsvariante unterschiedliche Belagsätze verwendet werden können.\",\n  \"compatibility\": [\n    {\n      \"marke\": \"Volkswagen\",\n      \"model\": \"Golf 7\",\n      \"bemerkung\": 1,\n      \"motorvarianten\": [\n        \"1.2 TSI\",\n        \"1.4 TSI\",\n        \"1.5 TSI\",\n        \"2.0 TSI GTI\",\n        \"2.0 TDI\"\n      ],\n      \"baujahr_von\": \"2012\",\n      \"baujahr_bis\": \"2020\"\n    }\n  ]\n}",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 375,
+    "completion_tokens": 641,
+    "total_tokens": 1016,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}
+=== Product 6467 Response End ===
+
+[2025-11-26 18:33:48] ✅ successfully connected to MySQL
+[2025-11-26 18:33:48] Received 1 items for processing (chatgpt_state IS NULL)
+[2025-11-26 18:33:48] 📝 Product names:
+[2025-11-26 18:33:48] Processing of Item ID=6467, Name='Peugeot Expert  Anhängerkupplung   -14866-'
+[2025-11-26 18:33:48] ✅ successfully connected to MySQL
+[2025-11-26 18:33:48] ✅ Updated product 6467, chatgpt_state=1
+[2025-11-26 18:33:48] 🔒 The connection is closed
+[2025-11-26 18:33:48] 
+=== ✅ Product 6466 Response Start ===
+{
+  "id": "chatcmpl-CftNPQtlu3EiohnE88AtH1uSI0myK",
+  "object": "chat.completion",
+  "created": 1764100351,
+  "model": "gpt-5.1-2025-11-13",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"artikelnummer\": \"\",\n  \"title\": \"Kfz-Ersatzteil – hochwertige Autoteile für verschiedene Marken und Modelle\",\n  \"metaDescription\": \"Kfz-Ersatzteil in Erstausrüsterqualität für diverse Automarken und Modelle. Passgenaue Autoteile für Baujahre ab ca. 2000 bis heute. Ideal für Wartung und Reparatur.\",\n  \"shortDescription\": \"- Hochwertiges Kfz-Ersatzteil in Erstausrüsterqualität\\n- Geeignet für verschiedene Marken und Modelle (siehe Kompatibilitätsliste)\\n- Robuste Ausführung für lange Lebensdauer\\n- Für Baujahre ca. 2000 bis heute geeignet (je nach Fahrzeug)\\n- Ideal für Wartung, Reparatur und Instandsetzung\",\n  \"longDescription\": \"Dieses Kfz-Ersatzteil ist für den Einsatz in einer Vielzahl gängiger Pkw-Modelle konzipiert und überzeugt durch eine robuste Ausführung sowie eine hohe Passgenauigkeit. Es eignet sich ideal für Wartungsarbeiten, Reparaturen und die Instandsetzung des Fahrzeugs im Alltagsbetrieb.\\n\\nDas Teil wird nach gängigen Qualitätsstandards gefertigt und ist auf Zuverlässigkeit und Langlebigkeit ausgelegt. Je nach Fahrzeugtyp kann es in Benzin- oder Dieselmotoren zum Einsatz kommen. Bitte prüfen Sie vor der Bestellung anhand der untenstehenden Kompatibilitätsliste, ob das Ersatzteil zu Ihrem Fahrzeug passt.\\n\\nHinweis: Die angegebenen Fahrzeugdaten dienen als Orientierung. Aufgrund von Modellpflegen, unterschiedlichen Motorisierungen und Ausstattungsvarianten kann es innerhalb eines Baujahres zu Abweichungen kommen. Vergleichen Sie nach Möglichkeit zusätzlich OE-/OEM-Nummern oder technische Spezifikationen mit Ihrem Originalteil.\",\n  \"compatibility\": [\n    {\n      \"marke\": \"Volkswagen\",\n      \"model\": \"Golf V\",\n      \"bemerkung\": 1,\n      \"motorvarianten\": [\n        \"1.4 16V\",\n        \"1.6 FSI\",\n        \"1.9 TDI\",\n        \"2.0 TDI\"\n      ],\n      \"baujahr_von\": \"2003\",\n      \"baujahr_bis\": \"2008\"\n    },\n    {\n      \"marke\": \"Volkswagen\",\n      \"model\": \"Golf VI\",\n      \"bemerkung\": 1,\n      \"motorvarianten\": [\n        \"1.4 TSI\",\n        \"1.6 TDI\",\n        \"2.0 TDI\"\n      ],\n      \"baujahr_von\": \"2008\",\n      \"baujahr_bis\": \"2013\"\n    },\n    {\n      \"marke\": \"Audi\",\n      \"model\": \"A3 (8P)\",\n      \"bemerkung\": 1,\n      \"motorvarianten\": [\n        \"1.6\",\n        \"1.9 TDI\",\n        \"2.0 TDI\"\n      ],\n      \"baujahr_von\": \"2003\",\n      \"baujahr_bis\": \"2012\"\n    },\n    {\n      \"marke\": \"Skoda\",\n      \"model\": \"Octavia II\",\n      \"bemerkung\": 1,\n      \"motorvarianten\": [\n        \"1.6\",\n        \"1.9 TDI\",\n        \"2.0 TDI\"\n      ],\n      \"baujahr_von\": \"2004\",\n      \"baujahr_bis\": \"2013\"\n    },\n    {\n      \"marke\": \"SEAT\",\n      \"model\": \"Leon II\",\n      \"bemerkung\": 1,\n      \"motorvarianten\": [\n        \"1.6\",\n        \"1.9 TDI\",\n        \"2.0 TDI\"\n      ],\n      \"baujahr_von\": \"2005\",\n      \"baujahr_bis\": \"2012\"\n    }\n  ]\n}",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 375,
+    "completion_tokens": 821,
+    "total_tokens": 1196,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}
+=== Product 6466 Response End ===
+
+[2025-11-26 18:33:48] ✅ successfully connected to MySQL
+[2025-11-26 18:33:48] Received 1 items for processing (chatgpt_state IS NULL)
+[2025-11-26 18:33:48] 📝 Product names:
+[2025-11-26 18:33:48] Processing of Item ID=6466, Name='9808490680 9826095480 Peugeot Expert  Schlossträger frontmaske   -14865-'
+[2025-11-26 18:33:49] ✅ successfully connected to MySQL
+[2025-11-26 18:33:49] ✅ Updated product 6466, chatgpt_state=1
+[2025-11-26 18:33:49] 🔒 The connection is closed
+[2025-11-26 18:33:49] 
+=== ✅ Product 6465 Response Start ===
+{
+  "id": "chatcmpl-CftNPdU8WP64IIFY8icAdBvQegEsy",
+  "object": "chat.completion",
+  "created": 1764100351,
+  "model": "gpt-5.1-2025-11-13",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"artikelnummer\": \"BREMSBEL-SATZ-VA-VENT-280MM-GOLF4\",\n  \"title\": \"Bremsbeläge vorne für VW Golf 4 1.6–1.9 TDI 1997–2006 | Scheiben Ø 280 mm, belüftet\",\n  \"metaDescription\": \"Bremsbelagsatz vorne passend für VW Golf IV 1.6–1.9 TDI (1997–2006) mit belüfteten Bremsscheiben Ø 280 mm. Hochwertige Bremsbeläge in Erstausrüster-Qualität für sichere Bremsleistung und kurze Bremswege.\",\n  \"shortDescription\": \"- Bremsbelagsatz Vorderachse\\n- Passend für viele VW Golf 4 Modelle 1997–2006\\n- Für belüftete Bremsscheiben Ø 280 mm\\n- Geräuscharm, verschleißfest, zuverlässige Bremsleistung\\n- In Erstausrüster-Qualität, inkl. Verschleißanzeige (modellabhängig)\\n- Einbau nur paarweise pro Achse empfohlen\",\n  \"longDescription\": \"Dieser Bremsbelagsatz für die Vorderachse ist passend für viele VW Golf 4 Modelle und wurde speziell für Fahrzeuge mit belüfteten Bremsscheiben in der Größe Ø 280 mm entwickelt. Die Beläge sorgen für eine zuverlässige, gleichmäßige Bremswirkung und wurden für den täglichen Einsatz im Straßenverkehr optimiert.\\n\\nDie Reibbelagmischung bietet ein gutes Verhältnis aus Bremsleistung, Komfort und Lebensdauer. Eine reduzierte Geräuschentwicklung sowie ein gleichmäßiger Verschleiß unterstützen ein sicheres und angenehmes Fahrverhalten. Je nach Ausführung des Fahrzeugs können die Beläge mit oder ohne integrierte Verschleißanzeige eingesetzt werden.\\n\\nHinweis: Bitte vor der Bestellung unbedingt die tatsächliche Bremsscheibengröße (Ø 280 mm, belüftet) sowie die Ausführung des Bremssystems am Fahrzeug prüfen, da es innerhalb der Baureihen unterschiedliche Scheibendurchmesser und Bremssattel-Varianten gibt. Der Einbau sollte fachgerecht durch eine Werkstatt erfolgen. Bremsbeläge sind immer achsweise (links/rechts gleichzeitig) zu erneuern.\",\n  \"compatibility\": [\n    {\n      \"marke\": \"VW\",\n      \"model\": \"Golf 4 (1J1) Limousine\",\n      \"bemerkung\": 1,\n      \"motorvarianten\": [\n        \"1.4 16V\",\n        \"1.6\",\n        \"1.6 16V\",\n        \"1.8\",\n        \"1.9 SDI\",\n        \"1.9 TDI\"\n      ],\n      \"baujahr_von\": \"1997\",\n      \"baujahr_bis\": \"2003\"\n    },\n    {\n      \"marke\": \"VW\",\n      \"model\": \"Golf 4 Variant (1J5) Kombi\",\n      \"bemerkung\": 1,\n      \"motorvarianten\": [\n        \"1.4 16V\",\n        \"1.6\",\n        \"1.6 16V\",\n        \"1.8\",\n        \"1.9 SDI\",\n        \"1.9 TDI\"\n      ],\n      \"baujahr_von\": \"1999\",\n      \"baujahr_bis\": \"2006\"\n    },\n    {\n      \"marke\": \"VW\",\n      \"model\": \"Golf 4 (1J1) GTI\",\n      \"bemerkung\": 2,\n      \"motorvarianten\": [\n        \"1.8 T\",\n        \"1.9 TDI\"\n      ],\n      \"baujahr_von\": \"1998\",\n      \"baujahr_bis\": \"2003\"\n    },\n    {\n      \"marke\": \"VW\",\n      \"model\": \"Bora (1J2) Limousine\",\n      \"bemerkung\": 2,\n      \"motorvarianten\": [\n        \"1.6\",\n        \"1.6 16V\",\n        \"1.8\",\n        \"1.9 SDI\",\n        \"1.9 TDI\"\n      ],\n      \"baujahr_von\": \"1998\",\n      \"baujahr_bis\": \"2005\"\n    },\n    {\n      \"marke\": \"VW\",\n      \"model\": \"Bora Variant (1J6) Kombi\",\n      \"bemerkung\": 2,\n      \"motorvarianten\": [\n        \"1.6\",\n        \"1.6 16V\",\n        \"1.8\",\n        \"1.9 SDI\",\n        \"1.9 TDI\"\n      ],\n      \"baujahr_von\": \"1999\",\n      \"baujahr_bis\": \"2005\"\n    }\n  ]\n}",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 375,
+    "completion_tokens": 1024,
+    "total_tokens": 1399,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}
+=== Product 6465 Response End ===
+
+[2025-11-26 18:33:49] ✅ successfully connected to MySQL
+[2025-11-26 18:33:49] Received 1 items for processing (chatgpt_state IS NULL)
+[2025-11-26 18:33:49] 📝 Product names:
+[2025-11-26 18:33:49] Processing of Item ID=6465, Name='Peugeot Expert  Tür  vorne rechts    -14864-'
+[2025-11-26 18:33:49] ✅ successfully connected to MySQL
+[2025-11-26 18:33:50] ✅ Updated product 6465, chatgpt_state=1
+[2025-11-26 18:33:50] 🔒 The connection is closed
+[2025-11-26 18:33:50] 🎉 Batch results processing finished. Updated 4 products.
+[2025-11-26 18:33:50] Batch results processed and database updated.
+[2025-11-26 18:33:50] Finishing processing after monitor.
+[2025-11-26 20:32:27] 
+            ======================
+            📚 Command Line Usage
+            ======================
+            1. Process a batch of products:
+            python MainController.py mode=1 count=<NUMBER>
+            Example: python MainController.py mode=1 count=5
+            -------------------------------------------------------
+            2. Process a single product:
+            python MainController.py mode=0 pid=<PRODUCT_ID>
+            Example: python MainController.py mode=0 pid=1234
+            -------------------------------------------------------
+            3. Process results from a completed batch job:
+            python MainController.py batch_id=<BATCH_ID>
+            Example: python MainController.py batch_id=batch_6925f34bbe4c81908363074d3c7c9a77
+            -------------------------------------------------------
+            4. Display this help message:
+            python MainController.py -h
+            python MainController.py --help
+            python MainController.py h=1
+            ================================
+            

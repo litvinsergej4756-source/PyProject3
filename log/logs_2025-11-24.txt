@@ -1,0 +1,101 @@
+[2025-11-24 19:47:24] Start of goods processing
+[2025-11-24 19:47:24] ✅ successfully connected to MySQL
+[2025-11-24 19:47:24] Received 5 items for processing (chatgpt_state IS NULL)
+[2025-11-24 19:47:24] 📝 Product names:
+[2025-11-24 19:47:24] ✅ Prompt successfully loaded from the database
+[2025-11-24 19:47:24] 🔒 The connection is closed
+[2025-11-24 19:47:24] 🔄 Running in BATCH SUBMISSION mode (limit=5).
+[2025-11-24 19:47:24] ✅ Created local input file: batch_files\batch_input_1764006444.jsonl with 5 requests.
+[2025-11-24 19:47:24] ⬆️ Uploading batch input file...
+[2025-11-24 19:47:26] ✅ File uploaded. ID: file-RQBFyHvhHd3wiRgxzc5ciD
+[2025-11-24 19:47:26] 🚀 Creating batch job...
+[2025-11-24 19:47:27] 🔥 Batch job created. ID: batch_69249a2f442081908896d75e288df8bc, Status: validating
+[2025-11-24 19:47:27] 🔥 Batch job created. ID: batch_69249a2f442081908896d75e288df8bc, Status: validating
+[2025-11-24 19:47:27] ✨ To monitor status, run: python MainController.py batch_id=batch_69249a2f442081908896d75e288df8bc
+[2025-11-24 19:47:27] Finishing processing.
+[2025-11-24 19:50:35] Start of goods processing
+[2025-11-24 19:50:35] ⏳ Starting asynchronous wait for batch ID: batch_69249a2f442081908896d75e288df8bc
+[2025-11-24 19:52:52] Start of goods processing
+[2025-11-24 19:52:52] ⏳ Starting asynchronous wait for batch ID: batch_69249a2f442081908896d75e288df8bc
+[2025-11-24 19:52:53] 🎉 Batch job COMPLETED.
+[2025-11-24 19:52:55] ✅ successfully connected to MySQL
+[2025-11-24 19:52:55] Received 1 items for processing (chatgpt_state IS NULL)
+[2025-11-24 19:52:55] 📝 Product names:
+[2025-11-24 19:52:55] Processing of Item ID=6473, Name='9813692680 7831974272 7832046902 Peugeot Expert  Lenkgetriebe  -14872-'
+[2025-11-24 19:52:55] ✅ successfully connected to MySQL
+[2025-11-24 19:52:55] ✅ Updated product 6473, chatgpt_state=1
+[2025-11-24 19:52:55] 🔒 The connection is closed
+[2025-11-24 19:52:55] ❌ SQL Execution Error: (0, '')
+[2025-11-24 19:52:55] ❌ Error reading goods: (0, '')
+[2025-11-24 19:52:55] ❌ Product ID=6472 not found.
+[2025-11-24 19:52:55] ❌ SQL Execution Error: (0, '')
+[2025-11-24 19:52:55] ❌ Error reading goods: (0, '')
+[2025-11-24 19:52:55] ❌ Product ID=6471 not found.
+[2025-11-24 19:52:55] ❌ SQL Execution Error: (0, '')
+[2025-11-24 19:52:55] ❌ Error reading goods: (0, '')
+[2025-11-24 19:52:55] ❌ Product ID=6470 not found.
+[2025-11-24 19:52:55] ❌ SQL Execution Error: (0, '')
+[2025-11-24 19:52:55] ❌ Error reading goods: (0, '')
+[2025-11-24 19:52:55] ❌ Product ID=6469 not found.
+[2025-11-24 19:52:55] 🎉 Batch results processing finished. Updated 1 products.
+[2025-11-24 19:52:55] Batch processing finished and database updated.
+[2025-11-24 19:52:55] Finishing processing after monitor.
+[2025-11-24 21:22:10] Start of goods processing
+[2025-11-24 21:22:11] ✅ successfully connected to MySQL
+[2025-11-24 21:22:11] ❌ Error reading goods: 'ContextController' object has no attribute 'fetch_all'
+[2025-11-24 21:22:11] ❌ Error reading prompt: 'ContextController' object has no attribute 'fetch_one'
+[2025-11-24 21:22:11] 🔒 The connection is closed
+[2025-11-24 21:22:11] ⚠️ There are no products to process
+[2025-11-24 21:27:59] Start of goods processing
+[2025-11-24 21:28:00] ✅ successfully connected to MySQL
+[2025-11-24 21:28:00] Received 4 items for processing (chatgpt_state IS NULL)
+[2025-11-24 21:28:00] 📝 Product names:
+[2025-11-24 21:28:00] ✅ Prompt successfully loaded from the database
+[2025-11-24 21:28:00] 🔒 The connection is closed
+[2025-11-24 21:28:00] 🔄 Running in BATCH SUBMISSION mode (limit=4).
+[2025-11-24 21:28:00] ✅ Created local input file: batch_files\batch_input_1764012480.jsonl with 4 requests.
+[2025-11-24 21:28:00] ⬆️ Uploading batch input file...
+[2025-11-24 21:28:01] ✅ File uploaded. ID: file-UTCox8EHyZQ7CEme9TZiSC
+[2025-11-24 21:28:01] 🚀 Creating batch job...
+[2025-11-24 21:28:02] 🔥 Batch job created. ID: batch_6924b1c27d94819087fae5aaeaf976b7, Status: validating
+[2025-11-24 21:28:02] 🔥 Batch job created. ID: batch_6924b1c27d94819087fae5aaeaf976b7, Status: validating
+[2025-11-24 21:28:02] ✨ To monitor status, run: python MainController.py batch_id=batch_6924b1c27d94819087fae5aaeaf976b7
+[2025-11-24 21:28:02] Finishing processing.
+[2025-11-24 21:31:10] Start of goods processing
+[2025-11-24 21:31:10] ⏳ Starting asynchronous wait for batch ID: batch_6924b1c27d94819087fae5aaeaf976b7
+[2025-11-24 21:31:10] 🎉 Batch job COMPLETED.
+[2025-11-24 21:31:12] ✅ successfully connected to MySQL
+[2025-11-24 21:31:12] Received 1 items for processing (chatgpt_state IS NULL)
+[2025-11-24 21:31:12] 📝 Product names:
+[2025-11-24 21:31:12] 🔒 The connection is closed
+[2025-11-24 21:31:12] Processing of Item ID=6472, Name='9678711180 Peugeot Expert  Wasserkühler -14871-'
+[2025-11-24 21:31:12] ✅ successfully connected to MySQL
+[2025-11-24 21:31:13] ✅ Updated product 6472, chatgpt_state=1
+[2025-11-24 21:31:13] 🔒 The connection is closed
+[2025-11-24 21:31:13] ✅ successfully connected to MySQL
+[2025-11-24 21:31:13] Received 1 items for processing (chatgpt_state IS NULL)
+[2025-11-24 21:31:13] 📝 Product names:
+[2025-11-24 21:31:13] 🔒 The connection is closed
+[2025-11-24 21:31:13] Processing of Item ID=6471, Name='P9806562180 Peugeot Expert  Ladeluftkühler  -14870-'
+[2025-11-24 21:31:13] ✅ successfully connected to MySQL
+[2025-11-24 21:31:13] ✅ Updated product 6471, chatgpt_state=1
+[2025-11-24 21:31:13] 🔒 The connection is closed
+[2025-11-24 21:31:14] ✅ successfully connected to MySQL
+[2025-11-24 21:31:14] Received 1 items for processing (chatgpt_state IS NULL)
+[2025-11-24 21:31:14] 📝 Product names:
+[2025-11-24 21:31:14] 🔒 The connection is closed
+[2025-11-24 21:31:14] Processing of Item ID=6470, Name='9807505080 Peugeot Expert  Achsschenkel hinten links  -14869-'
+[2025-11-24 21:31:14] ✅ successfully connected to MySQL
+[2025-11-24 21:31:14] ✅ Updated product 6470, chatgpt_state=1
+[2025-11-24 21:31:14] 🔒 The connection is closed
+[2025-11-24 21:31:14] ✅ successfully connected to MySQL
+[2025-11-24 21:31:14] Received 1 items for processing (chatgpt_state IS NULL)
+[2025-11-24 21:31:14] 📝 Product names:
+[2025-11-24 21:31:14] 🔒 The connection is closed
+[2025-11-24 21:31:14] Processing of Item ID=6469, Name='9807504980 Peugeot Expert  Achsschenkel hinten rechts  -14868-'
+[2025-11-24 21:31:15] ✅ successfully connected to MySQL
+[2025-11-24 21:31:15] ✅ Updated product 6469, chatgpt_state=1
+[2025-11-24 21:31:15] 🔒 The connection is closed
+[2025-11-24 21:31:15] 🎉 Batch results processing finished. Updated 4 products.
+[2025-11-24 21:31:15] Batch processing finished and database updated.
+[2025-11-24 21:31:15] Finishing processing after monitor.
