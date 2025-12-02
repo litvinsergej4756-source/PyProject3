@@ -22,6 +22,19 @@ class BatchModule:
         if not os.path.exists(self.batch_dir):
             os.makedirs(self.batch_dir)
 
+    def PrepareRequestContent(self, item, prompt):
+        product_id = item["product_id"]
+        product_name = item.get('name', '')
+        manufactorId = ""
+        if item.get("ean"):
+            manufactorId += item["ean"] + " "
+        if item.get("upc"):
+            manufactorId += item["upc"] + " "
+        if manufactorId.strip():
+            product_name += ", weitere Herstellernummer: " + manufactorId
+        return prompt.replace("{name}", product_name)
+        
+
     #The function creates a local JSONL file with requests for batch processing, substituting product names in the prompt and forming a structure for the API.
     def create_input_file(self, items, full_prompt):
         filename = os.path.join(self.batch_dir, f"batch_input_{int(time.time())}.jsonl")
@@ -29,10 +42,8 @@ class BatchModule:
         with open(filename, 'w', encoding='utf-8') as f:
             for item in items:
                 product_id = item['product_id']
-                product_name = item.get('name', '')
-
-                user_content = full_prompt.replace("{product_name}", product_name) 
-
+                content = self.PrepareRequestContent(item, full_prompt)               
+                
                 request_data = {
                     "custom_id": f"product-id-{product_id}", 
                     "method": "POST",
@@ -40,7 +51,7 @@ class BatchModule:
                     "body": {
                         "model": self.model,
                         "messages": [
-                            {"role": "user", "content": user_content}
+                            {"role": "user", "content": content}
                         ],
                     }
                 }
@@ -100,26 +111,30 @@ class BatchModule:
         return output_file_id, None
     
     #The function periodically polls the status of the batch job until it completes, and returns the result or an error on failure.
-    def wait_for_completion(self, batch_id, poll_interval=30):
+    def WaitForTaskFinished(self, batch_id, maxWaitTimeMin: int):
         logger.info(f"⏳ Starting asynchronous wait for batch ID: {batch_id}")
 
-        while True:
+        i = 0
+        while i < maxWaitTimeMin:  
+            i += 1  
             batch_job = self.check_status(batch_id)
 
             if not batch_job:
                 logger.error(f"Failed to retrieve job {batch_id}.")
-                return None
+                return -2
             
             status = batch_job.status
 
             if status == 'completed':
                 logger.info("🎉 Batch job COMPLETED.")
-                return batch_job
+                return 1
             
             elif status in['failed', 'expired', 'cancelled']:
                 logger.error(f"❌ Batch job TERMINATED with status: {status}.")
-                return None
+                return -3
             
             else:
-                logger.info(f"⌛ Job status is: {status}. Waiting {poll_interval}s...")
-                time.sleep(poll_interval)
+                logger.info(f"⌛ Job status is: {status}. Waiting {60}s...")
+                time.sleep(60)  
+                
+        return -1

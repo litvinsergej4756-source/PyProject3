@@ -14,7 +14,7 @@ class ChatgptAiManager:
         self.client = OpenAI(api_key=api_key)
 
     def generate_description(self, product_name, prompt_text):
-        final_prompt = prompt_text.replace("{product_name}", product_name)
+        final_prompt = prompt_text.replace("{name}", product_name)
 
         try:
             response = self.client.chat.completions.create(
@@ -53,7 +53,7 @@ class ChatgptAiManager:
             # Fallback auf die generische Struktur
             json_text = response.output[0].content[0].text
         
-        # 5) Vom Modell geliefertes JSON in Python-Objekt parsen
+        # Vom Modell geliefertes JSON in Python-Objekt parsen
         try:
             return json.loads(json_text)
         except json.JSONDecodeError:

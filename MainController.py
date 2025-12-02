@@ -2,6 +2,7 @@ import json
 from ChatgptAiManager import ChatgptAiManager
 from BatchModule import BatchModule
 from DbModule import DbModule
+from JsonParser import JsonParser
 from configuration.configurate_logs import setup_logger
 from configuration.print_help import print_help
 import sys
@@ -15,6 +16,7 @@ class MainController:
         self.ai = ChatgptAiManager()
         self.db_module = DbModule()
         self.batch_module = BatchModule()
+        self.parser = JsonParser()
 
     def send_to_chatgpt(self, name, full_prompt):
         #response = self.ai.generate_description(product_name=name, prompt_text=full_prompt)
@@ -38,21 +40,13 @@ class MainController:
         
         for item in items:
             product_id = item["product_id"]
-            product_name = item.get('name', '')
-            manufactorId = ""
-            if item.get("ean"):
-                manufactorId += item["ean"] + " "
-            if item.get("upc"):
-                manufactorId += item["upc"] + " "
-            if manufactorId.strip():
-                name += ", weitere Herstellernummer: " + manufactorId
-
+            name = self.batch_module.PrepareRequestContent(item, full_prompt)            
             logger.info(f"➡️ Requesting synchronous completion for ID={product_id}")
 
             try:
-                response_json = self.ai.generate_description(product_name=product_name, prompt_text=full_prompt)
-                self.db_module.update_database(product_id, response_json)
-                
+                #response_json = self.ai.generate_description(product_name=product_name, prompt_text=full_prompt)
+                response_json = self.ai.call_itemdesc_with_browsing(prompt_text=name) 
+                self.db_module.updateItemDescAndSeo(product_id, response_json)               
                 logger.info(f"✅ Successfully updated product ID={product_id}")
 
             except Exception as e:
@@ -73,7 +67,7 @@ class MainController:
             jsonl_results_text = self.batch_module.retrieve_results(output_file_id)
 
             if jsonl_results_text:
-                self.db_module.process_batch_results(jsonl_results_text)
+                self.parser.process_batch_results(jsonl_results_text)
                 logger.info("Batch results processed and database updated.")
             else:
                 logger.error(f"❌ Could not retrieve JSONL content for batch {batch_id}.")
@@ -114,6 +108,10 @@ class MainController:
             batch_job = self.batch_module.submit_batch_job(input_file_path)
             
             logger.info(f"✨ To monitor status, run: python MainController.py batch_id={batch_job.id}")
+            result = self.batch_module.WaitForTaskFinished(batch_job.id, 10)
+            if result == 1:
+                self.process_finished_batch_results(batch_job.id)
+                logger.info("Finishing processing after monitor.")
         
         elif mode == 0:
             self.process_synchronously(items, prompt_text)
