@@ -1,22 +1,21 @@
 import json
+import sys
+import time
 from ChatgptAiManager import ChatgptAiManager
 from BatchModule import BatchModule
-from DbModule import DbModule
+from OpenCartModul import OpencartProductController
 from JsonParser import JsonParser
 from configuration.configurate_logs import setup_logger
 from configuration.print_help import print_help
-import sys
-import time
 
 logger = setup_logger()
-POLL_INTERVAL_SECONDS = 300
 
 class MainController:
     def __init__(self):
         self.ai = ChatgptAiManager()
-        self.db_module = DbModule()
-        self.batch_module = BatchModule()
-        self.parser = JsonParser()
+        self.opencart = OpencartProductController()
+        self.ai_batch = BatchModule()
+        self.json_parser = JsonParser()
 
     def send_to_chatgpt(self, name, full_prompt):
         #response = self.ai.generate_description(product_name=name, prompt_text=full_prompt)
@@ -40,13 +39,13 @@ class MainController:
         
         for item in items:
             product_id = item["product_id"]
-            name = self.batch_module.PrepareRequestContent(item, full_prompt)            
+            name = self.ai_batch.PrepareRequestContent(item, full_prompt)            
             logger.info(f"➡️ Requesting synchronous completion for ID={product_id}")
 
             try:
                 #response_json = self.ai.generate_description(product_name=product_name, prompt_text=full_prompt)
                 response_json = self.ai.call_itemdesc_with_browsing(prompt_text=name) 
-                self.db_module.updateItemDescAndSeo(product_id, response_json)               
+                self.opencart.UpdateItemDescAndSeo(product_id, response_json)               
                 logger.info(f"✅ Successfully updated product ID={product_id}")
 
             except Exception as e:
@@ -57,17 +56,17 @@ class MainController:
     def process_finished_batch_results(self, batch_id):
         logger.info(f"🔄 Starting retrieval of results for Batch ID: {batch_id}")
         try:
-            final_job = self.batch_module.check_status(batch_id) 
-            output_file_id, error_message = self.batch_module.get_output_file_id(final_job)
+            final_job = self.ai_batch.check_status(batch_id) 
+            output_file_id, error_message = self.ai_batch.get_output_file_id(final_job)
             
             if error_message:
                 logger.error(f"❌ Failed to process batch {batch_id}: {error_message}")
                 return
                 
-            jsonl_results_text = self.batch_module.retrieve_results(output_file_id)
+            jsonl_results_text = self.ai_batch.retrieve_results(output_file_id)
 
             if jsonl_results_text:
-                self.parser.process_batch_results(jsonl_results_text)
+                self.json_parser.process_batch_results(jsonl_results_text)
                 logger.info("Batch results processed and database updated.")
             else:
                 logger.error(f"❌ Could not retrieve JSONL content for batch {batch_id}.")
@@ -88,7 +87,7 @@ class MainController:
             limit = 3
             logger.info("ℹ️ No parameters provided — using default limit=3")
 
-        items, prompt_text  = self.db_module.fetch_products_and_prompt(limit=limit, pid=pid)
+        items, prompt_text  = self.opencart.fetch_products_and_prompt(limit=limit, pid=pid)
 
         if not items:
             if pid:
@@ -104,11 +103,11 @@ class MainController:
         if mode == 1:
             final_limit = limit if limit else (1 if pid else None)
             logger.info(f"🔄 Running in BATCH SUBMISSION mode (limit={final_limit}).")
-            input_file_path = self.batch_module.create_input_file(items, prompt_text)
-            batch_job = self.batch_module.submit_batch_job(input_file_path)
+            input_file_path = self.ai_batch.create_input_file(items, prompt_text)
+            batch_job = self.ai_batch.submit_batch_job(input_file_path)
             
             logger.info(f"✨ To monitor status, run: python MainController.py batch_id={batch_job.id}")
-            result = self.batch_module.WaitForTaskFinished(batch_job.id, 10)
+            result = self.ai_batch.WaitForTaskFinished(batch_job.id, 20)
             if result == 1:
                 self.process_finished_batch_results(batch_job.id)
                 logger.info("Finishing processing after monitor.")

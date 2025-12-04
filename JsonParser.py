@@ -1,12 +1,12 @@
 from configuration.configurate_logs import setup_logger
-from DbModule import DbModule
+from OpenCartModul import OpencartProductController
 import json
 
 logger = setup_logger()
 
 class JsonParser:
     def __init__(self):
-        self.db_module = DbModule()      
+        self.opencart = OpencartProductController()      
     
     #The function parses JSONL text line by line, returning JSON objects and logging decoding errors.
     @staticmethod
@@ -77,7 +77,7 @@ class JsonParser:
                         # print(log_output)
                         logger.info(log_output)
 
-                    self.db_module.process_product(product_id, response_json) 
+                    self.opencart.ProcessProduct(product_id, response_json) 
                     successful_updates += 1                    
 
                 elif error_message:
